@@ -37,6 +37,11 @@
   color: black;
   font-weight: 500;
   text-decoration: none;
+  transition: all 0.3s;
+}
+#navbar a:hover {
+  color: rgb(255, 200, 0);
+  transition: all 0.3s;
 }
 #navbar div ul {
   margin-top: 1.2rem;
@@ -44,10 +49,6 @@
 #navbar div ul li a {
   color: rgba(186, 190, 194, 0.907);
   font-weight: 400;
-}
-
-#navbar a:hover {
-  color: rgb(255, 200, 0);
 }
 
 /* Header */
@@ -176,7 +177,6 @@ video {
 .menu__item a {
   text-decoration: none;
   color: white;
-
   font-weight: 700;
 }
 .menu__item .item {
@@ -1475,6 +1475,116 @@ input::placeholder {
 .content__vietnam3 .row {
   gap: 1rem;
 }
+/* ----------------------------------- */
+/* =====================List Content===================== */
+
+.listContent {
+  width: 50%;
+  text-align: left;
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem; */
+  margin-bottom: 3rem;
+}
+.listContent__list .listContent__list--desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(199, 199, 199, 0.332);
+}
+.listContent__list--desc {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 17px;
+  padding: 1rem 0;
+  line-height: 2.5rem;
+}
+.listContent__list--desc.active {
+  color: #ffcc05;
+}
+.listContent__list--content {
+  display: none;
+}
+.listContent__list--content.active {
+  font-family: Cabin, sans-serif;
+  font-size: 16px;
+  line-height: 1.7rem;
+  display: block;
+  padding-bottom: 3rem;
+}
+.listContent__list--icon {
+  display: none;
+  transition: all 0.5s;
+  margin-right: 1rem;
+}
+.listContent__list--icon.active {
+  display: block;
+}
+.list__icon--noneHover {
+  transition: all 0.5s;
+  margin-right: 1rem;
+}
+.listContent__list--desc:hover .list__icon--noneHover {
+  display: none;
+  transition: all 0.5s;
+}
+.listContent__list--desc:hover .listContent__list--icon {
+  display: block;
+  transition: all 0.5s;
+  margin-right: 1rem;
+}
+.listContent__list--desc.active .list__icon--noneHover {
+  display: none;
+}
+/* ------------------------ */
+.listContent--img {
+  background-repeat: repeat;
+  background-size: 100% auto;
+  width: 50%;
+}
+.listContent--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imgThailand {
+  background-image: url("https://vietauroratravel.com/wp-content/uploads/2022/08/chanthai.jpg?id=3444");
+}
+.imgCambodia {
+  background-image: url(https://vietauroratravel.com/wp-content/uploads/2022/08/chancam.png?id=3433);
+}
+.imgLaos {
+  background-image: url(https://vietauroratravel.com/wp-content/uploads/2022/08/chanlao.png?id=3439);
+}
+/* --------------------List Content2---------------------- */
+.listContent2 {
+  background-color: #e7e7e7;
+  text-align: left;
+  padding-bottom: 4rem;
+}
+.listContent2 h1 {
+  color: #ffcc05;
+  font-family: Kristi;
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: 500;
+}
+.listContent2 a {
+  color: #000000;
+}
+.listContent2 p {
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
 /* ======================Thailand============================ */
 .banner--thailand {
   background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/03/thaibanner.jpg);
@@ -1505,4 +1615,84 @@ input::placeholder {
 /* ====================Laos============================== */
 .banner--laos {
   background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/03/banner-laos.jpg);
+}
+/* ==================================================================== */
+/* ====================About Us===================== */
+.map {
+  /* height: 100rem; */
+}
+.map .menu {
+  background-color: white;
+}
+.map a {
+  color: black;
+}
+.content__contactUs {
+  padding: 5rem 88px;
+  width: 100%;
+  display: flex;
+}
+.content__contactUs--left {
+  width: 50%;
+}
+.content__contactUs--left input {
+  padding: 0.7rem 0;
+  /* width: 30rem; */
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #e1e1e14d;
+  padding-left: 1rem;
+}
+.content__contactUs--left input::placeholder {
+  font-size: 15px;
+  color: #808285;
+}
+.content__contactUs--left textarea {
+  border: none;
+  background-color: #e1e1e14d;
+  outline: none;
+  padding: 1rem 0 0 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+.content__contactUs--left form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.content__contactUs--left h3 {
+  color: #303030;
+  font-family: Playfair Display;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 1.333px;
+  font-weight: 600;
+}
+.content__contactUs--left form button {
+  color: white;
+  background-color: #ffcc05;
+  border: none;
+  font-family: Cabin, sans-serif;
+  padding: 1rem 4rem;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+  transition: all 0.3s;
+  margin-top: 2rem;
+}
+.content__contactUs--left form button:hover {
+  transition: all 0.3s;
+  background-color: #303030;
+}
+.content__contactUs--right {
+  width: 50%;
+}
+.content__contactUs--right h4 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  font-size: 20px;
 }

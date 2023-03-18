@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="../../Css/home.css" />
 
     <link
@@ -42,8 +41,13 @@
       href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap"
       rel="stylesheet"
     />
-
-    <title>Our Team - Viet Aurora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Unica+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact - Viet Aurora</title>
   </head>
   <body>
     <!-- ============Nav bar======== -->
@@ -58,26 +62,22 @@
         </div>
         <div class="menu__item">
           <div>
-            <a href="../../Html/home.html" class="item">HOME</a>
+            <a href="../home.html" class="item">HOME</a>
           </div>
 
           <div>
-            <a href="#" class="item menu__item--color">ABOUT US</a>
+            <a href="#" class="item">ABOUT US</a>
             <ul>
-              <li>
-                <a href="aboutUs.html">About Us</a>
-              </li>
-              <li>
-                <a href="ourTeam.html" style="color: #ffcc05">Meet Our team</a>
-              </li>
+              <li><a href="../AboutUs/aboutUs.html">About Us</a></li>
+              <li><a href="../AboutUs/ourTeam.html">Meet Our team</a></li>
             </ul>
           </div>
 
           <div>
-            <a href="" class="item">EXPERIENCES</a>
+            <a href="#" class="item">EXPERIENCES</a>
             <ul>
               <li><a href="../Experiences/blogs.html">Blogs</a></li>
-              <li><a href="#">Travel News</a></li>
+              <li><a href="../Experiences/travelNew.html">Travel News</a></li>
             </ul>
           </div>
 
@@ -202,12 +202,13 @@
           </div>
 
           <div>
-            <a href="" class="item">CONTACT US</a>
+            <a href="./contactUs.html" class="item menu__item--color"
+              >CONTACT US</a
+            >
           </div>
         </div>
       </div>
     </div>
-
     <!-- =====Header===== -->
     <div class="header">
       <!-- ======header Left========= -->
@@ -294,23 +295,22 @@
       <!-- =========header right================== -->
       <div class="headerRight">
         <div class="headerRight__now"><a href="">INQUIRE NOW</a></div>
-        <div class="headerRight__login"><a href="">LOGIN</a></div>
+
+        <div class="headerRight__login">LOGIN</div>
       </div>
     </div>
 
-    <!-- ==========Banner============ -->
-    <div class="banner--aboutUs banner--ourTeam">
-      <div class="banner__aboutUs--desc">
-        <h1>Our Team</h1>
-        <h6>
-          With the most dedicated, friendly and professional staffs with years
-          of experience in <br />
-          tourism field, we are happy to introduce you what makes VietnamTours
-          what it is <br />
-          today.
-        </h6>
-      </div>
-      <!-- ======Menu Banner================ -->
+    <!-- =============Map============== -->
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.9957082691208!2d105.75545071467675!3d20.952687495747377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452e9f657a33b%3A0xdc86ece78c201419!2zUENDMSBDb21wbGV4IEjDoCDEkMO0bmcsIFAuIEJhIExhLCBQaMO6IEzGsMahbmcsIEjDoCDEkMO0bmcsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1679132913588!5m2!1svi!2s"
+        width="100%"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <div class="menu">
         <div class="menu--content">
           <div class="menu__logo">
@@ -322,28 +322,22 @@
           </div>
           <div class="menu__item">
             <div>
-              <a href="../../Html/home.html" class="item">HOME</a>
+              <a href="../home.html" class="item">HOME</a>
             </div>
 
             <div>
-              <a href="#" class="item menu__item--color">ABOUT US</a>
+              <a href="#" class="item">ABOUT US</a>
               <ul>
-                <li>
-                  <a href="aboutUs.html">About Us</a>
-                </li>
-                <li>
-                  <a href="ourTeam.html" style="color: #ffcc05"
-                    >Meet Our team</a
-                  >
-                </li>
+                <li><a href="../AboutUs/aboutUs.html">About Us</a></li>
+                <li><a href="../AboutUs/ourTeam.html">Meet Our team</a></li>
               </ul>
             </div>
 
             <div>
-              <a href="" class="item">EXPERIENCES</a>
+              <a href="#" class="item">EXPERIENCES</a>
               <ul>
                 <li><a href="../Experiences/blogs.html">Blogs</a></li>
-                <li><a href="#">Travel News</a></li>
+                <li><a href="../Experiences/travelNew.html">Travel News</a></li>
               </ul>
             </div>
 
@@ -489,346 +483,36 @@
             </div>
 
             <div>
-              <a href="" class="item">CONTACT US</a>
+              <a href="./contactUs.html" class="item menu__item--color"
+                >CONTACT US</a
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- ===========Content Our Team=========== -->
-    <div class="content--ourTeam">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col ourTeam--column">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/388090f1b57775292c66.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Quan Nguyen</h4>
-              <h6>Founder / CEO</h6>
-            </div>
-            <div>
-              <p>
-                Tourism is based on creating memories and memories come from
-                unique and captivating experiences. We claim the guest’s rights
-                with 100% customer satisfaction. My personal mission is to
-                deliver happiness with Passion, Purpose, People, Planet and
-                Prosperity.
-              </p>
-            </div>
-          </div>
-          <div class="col ourTeam--column">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/1.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Hannah Vu</h4>
-              <h6>Sales Manager</h6>
-            </div>
-            <div>
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-twitter"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                  />
-                </svg>
-              </div>
-              <p>
-                Blessed with a cheerful and captivating personality, Mrs Hannah
-                is a vital part of Viet Aurora Travel sales and marketing team.
-                Mrs Hannah in depth knowledge of the Vietnam regions have given
-                her a true advantage when it comes to visualizing effective
-                sales and marketing strategies. She spent many years studying
-                abroad, traveling, and exploring different destinations in the
-                world. Hannah is inspired by different cultures and is an
-                excellent consultant for trips including gastronomy, honeymoon,
-                beach break, to jungle adventure. Most memorable travel
-                experience that Hannah would like to share with other travel
-                lovers. Mrs Hannah has continuously demonstrated her expertise
-                by achieving several important milestones for the organization
-                every year.
-              </p>
-            </div>
-          </div>
-          <div class="col ourTeam--column">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/2.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Rose Nguyen</h4>
-              <h6>Senior Travel Advisor</h6>
-            </div>
-            <div>
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-twitter"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                  />
-                </svg>
-              </div>
-              <p>
-                After completing her education in commercial law, Ms. Hong
-                followed her lifelong passion and became a part of the travel
-                industry. Today, Rose is living his dream as she shares her love
-                for the Vietnam, Cambodia, Laos and Indochina regions with
-                others. Beyond her extensive scholastic knowledge of Indochina
-                geography, Rose Nguyen spent much of her childhood playing in
-                the fields and streets of Vietnam, which gave her an intimate
-                and personal understanding of the region. Rose Nguyen uses her
-                knowledge and unique perspective to help clients find the
-                perfect travel package.
-              </p>
-            </div>
-          </div>
-          <div class="col ourTeam--column">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/3.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Hong Nguyen</h4>
-              <h6>Tour Operator Leader</h6>
-            </div>
-            <div>
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-twitter"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                  />
-                </svg>
-              </div>
-              <p>
-                On behalf of Viet Aurora Travel – A tour operator in Indochina
-                with headquarter in Hanoi, Hong would like to extend her warmest
-                greeting to everyone who visits our offices and our countries.
-                As operator leader, from begins of guest’s trip until the end of
-                trip, her biggest goal is that they have smooth trip then after
-                the clients finish their trip and return home, we will receive
-                thank-you letters from the clients. In order to achieve this
-                goal, we understand that we have to create/arrange a very good
-                tour and for you. That is the most important goal of her as well
-                as of Viet Aurora Travel.
-              </p>
-            </div>
-          </div>
-          <div class="col ourTeam--column">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/4.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h4>Lily Tran</h4>
-              <h6>Marketing Executive</h6>
-            </div>
-            <div>
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-twitter"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                  />
-                </svg>
-              </div>
-              <p>
-                Lily’s here to make sure you get the best content from all our
-                marketing and websites. She’s got many years’ experience writing
-                for industries across the world. She is passionate about travel
-                in Indochina and wants to be certain that we can share our
-                passion for travel properly with you. She’s dedicated to making
-                our customer’s journeys as easy and as exciting as possible.
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- ==========Content============= -->
+    <div class="content__contactUs">
+      <div class="content__contactUs--left">
+        <h3>Contact Us</h3>
+        <form action="">
+          <input type="text" placeholder="Name*" />
+          <input type="email" placeholder="Email Address*" />
+          <input type="text" placeholder="Subject" />
+          <textarea name="text" id="" cols="30" rows="10"></textarea>
+          <button>SUBMIT</button>
+        </form>
+      </div>
+      <div class="content__contactUs--right">
+        <h4>
+          International Trading Name in English: Viet Aurora International
+          Travel Company Limited.
+        </h4>
       </div>
     </div>
 
-    <!-- =======Footer========= -->
+    <!-- ==============Footer========== -->
     <div class="footer">
       <div class="footer__container">
         <div class="footer__container--content">
@@ -844,7 +528,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="rgb(255, 183, 0)"
                   class="bi bi-telephone-fill"
                   viewBox="0 0 16 16"
                 >
@@ -862,7 +546,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="rgb(255, 183, 0)"
                   class="bi bi-geo-alt-fill"
                   viewBox="0 0 16 16"
                 >
@@ -879,7 +563,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="rgb(255, 183, 0)"
                   class="bi bi-geo-alt-fill"
                   viewBox="0 0 16 16"
                 >
@@ -899,7 +583,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="rgb(255, 183, 0)"
                   class="bi bi-envelope-fill"
                   viewBox="0 0 16 16"
                 >
@@ -937,7 +621,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="white"
                   class="bi bi-twitter"
                   viewBox="0 0 16 16"
                 >
@@ -951,7 +635,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="white"
                   class="bi bi-facebook"
                   viewBox="0 0 16 16"
                 >
@@ -966,7 +650,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="white"
                   class="bi bi-instagram"
                   viewBox="0 0 16 16"
                 >
@@ -978,7 +662,7 @@
               <a href="">
                 <svg
                   stroke="currentColor"
-                  fill="currentColor"
+                  fill="white"
                   stroke-width="0"
                   viewBox="0 0 512 512"
                   height="1em"
@@ -995,7 +679,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="white"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
                 >
@@ -1009,12 +693,26 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
+                  fill="white"
                   class="bi bi-pinterest"
                   viewBox="0 0 16 16"
                 >
                   <path
                     d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"
+                  />
+                </svg>
+              </a>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="white"
+                  class="bi bi-vimeo"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.992 4.204c-.071 1.556-1.158 3.687-3.262 6.393-2.175 2.829-4.016 4.243-5.522 4.243-.933 0-1.722-.861-2.367-2.583L3.55 7.523C3.07 5.8 2.556 4.94 2.007 4.94c-.118 0-.537.253-1.254.754L0 4.724a209.56 209.56 0 0 0 2.334-2.081c1.054-.91 1.845-1.388 2.373-1.437 1.243-.123 2.01.728 2.298 2.553.31 1.968.526 3.19.646 3.666.36 1.631.756 2.446 1.186 2.445.334 0 .836-.53 1.508-1.587.671-1.058 1.03-1.863 1.077-2.415.096-.913-.263-1.37-1.077-1.37a3.022 3.022 0 0 0-1.185.261c.789-2.573 2.291-3.825 4.508-3.756 1.644.05 2.419 1.117 2.324 3.2z"
                   />
                 </svg>
               </a>
@@ -1065,7 +763,7 @@
       </svg>
       <div>Top</div>
     </div>
-    <script src="../../Js/scroll.js"></script>
     <script src="../../Js/navbar.js"></script>
+    <script src="../../Js/scroll.js"></script>
   </body>
 </html>
