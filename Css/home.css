@@ -1335,6 +1335,10 @@ input::placeholder {
   padding: 6rem 0 3rem 0;
 }
 
+.col--cmt a:hover svg {
+  fill: #ffcc05;
+}
+
 /* =====================================Destinations============================================= */
 .banner--destinations {
   background-image: url(https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/destination-title-img.jpg);
@@ -1689,10 +1693,491 @@ input::placeholder {
 }
 .content__contactUs--right {
   width: 50%;
+  margin-left: 4rem;
 }
 .content__contactUs--right h4 {
   font-weight: 700;
   font-family: "Playfair Display", serif;
   color: #303030;
   font-size: 20px;
+}
+/* ================Tour Styles========================= */
+
+.banner--luxuryTour {
+  background-image: url(https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/title-img.jpg);
+}
+.content--luxury {
+  padding: 0 88px;
+  /* background-color: blue; */
+}
+.content--luxury > .listContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: red; */
+}
+.content--luxury .listContent .listContent__list {
+  /* margin-top: -2rem; */
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: -4rem;
+  background-color: rgb(255, 255, 255);
+}
+.content--luxury .listContent .listContent__list .listContent__list--desc {
+  font-family: Cabin, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #303030;
+  letter-spacing: 0.025em;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  background-color: rgba(196, 196, 196, 0.145);
+  width: 25%;
+  padding-left: 1rem;
+}
+.content--luxury
+  .listContent
+  .listContent__list
+  .listContent__list--desc.active,
+.content--luxury
+  .listContent
+  .listContent__list
+  .listContent__list--desc.active
+  svg {
+  background-color: white;
+  color: #ffcc05;
+  fill: #ffcc05;
+}
+.content--luxury .listContent .listContent__content {
+  display: flex;
+  margin: 5rem 0 2rem 0;
+}
+.content--luxury
+  .listContent
+  .listContent__content
+  .listContent__list--content {
+  width: 75%;
+}
+.content--luxury
+  .listContent
+  .listContent__content
+  .listContent__list--content
+  div {
+  display: flex;
+}
+.content--luxury
+  .listContent
+  .listContent__content
+  .listContent__list--content
+  .list__content--img {
+  width: 35%;
+}
+.content--luxury
+  .listContent
+  .listContent__content
+  .listContent__list--content
+  .list__content--img
+  img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.listContent__content .list__content--imgDesc {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+.listContent__content .list__content--imgDesc a {
+  text-decoration: none;
+}
+
+.listContent__content .list__content--imgDesc h3 a {
+  color: #303030;
+  font-family: Playfair Display;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 1.333px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.listContent__content .list__content--imgDesc h3 a:hover {
+  transition: all 0.3s;
+  color: #ffcc05;
+}
+
+.listContent__content .list__content--imgDesc div span {
+  color: #c2c2c2;
+  font-size: 15px;
+}
+.listContent__content .list__content--imgDesc div a span {
+  transition: all 0.3s;
+}
+.listContent__content .list__content--imgDesc div a:hover span {
+  transition: all 0.3s;
+  color: #ffcc05;
+}
+
+.list__content--right {
+  width: 25%;
+  margin-top: 5rem;
+}
+.list__content--right h4 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  font-size: 20px;
+  padding: 10% 0 7% 10%;
+}
+.list__content--right input {
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+}
+.list__content--right input::placeholder {
+  font-size: 15px;
+}
+.list__content--right form {
+  margin-left: 10%;
+}
+.list__content--right .content__right--form {
+  background-color: rgba(196, 196, 196, 0.145);
+}
+.list__content--right form .content__right--form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+}
+.list__content--right form .content__right--form1 div {
+  border: 2px solid rgba(167, 167, 167, 0.247);
+  background-color: white;
+}
+.list__content--right form > div svg {
+  margin-left: 1rem;
+}
+
+.mkdf-tours-type-filter-item {
+  margin-top: 1rem;
+}
+.mkdf-tours-type-filter-item input[type="checkbox"] {
+  display: none;
+}
+.mkdf-tours-type-filter-item input[type="checkbox"]:checked + label:before {
+  content: "\f00c";
+  color: #ffcc05;
+  background-color: #fff;
+}
+.mkdf-tours-type-filter-item label {
+  cursor: pointer;
+}
+.mkdf-tours-type-filter-item label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  font-family: fontawesome;
+  font-size: 13px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+.list__content--right form button {
+  width: 90%;
+  border: none;
+  background-color: #ffcc05;
+  color: white;
+  letter-spacing: 1.222222px;
+  padding: 1rem 0;
+  margin: 3rem 0 2rem 0;
+  transition: all 0.3s;
+}
+.list__content--right form button:hover {
+  transition: all 0.3s;
+  background-color: #2c2c2c;
+}
+/* ==============February=============== */
+.banner__travelNew--Feburary2018 {
+  background-image: url(https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/title-img.jpg);
+}
+.content__February2018 {
+  padding: 5rem 88px;
+  width: 80%;
+}
+.content__February2018--desc {
+  margin-top: 3rem;
+}
+.content__February2018--desc a {
+  text-decoration: none;
+}
+.content__February2018--desc h3 a {
+  color: #303030;
+  font-family: Playfair Display;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 1.333px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.content__February2018--desc h3 a:hover {
+  color: #ffcc05;
+  transition: all 0.3s;
+}
+.content__February2018--desc p {
+  font-family: Cabin, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.content__February2018--desc .desc--item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.content__February2018--desc .desc--item a {
+  color: #c2c2c2;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+}
+.content__February2018--desc .desc--icon {
+  display: flex;
+  gap: 1rem;
+}
+.content__February2018--desc a:hover {
+  color: #ffcc05;
+  transition: all 0.3s;
+}
+.content__February2018--desc a:hover svg {
+  transition: all 0.3s;
+  fill: #ffcc05;
+}
+.content__February2018--content2 {
+  background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/02/blog-post-link.jpg);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  margin: 5rem 0 0 0;
+}
+.content__February2018--content2 a {
+  text-decoration: none;
+}
+.content__February2018--content2 h3 a {
+  color: #303030;
+  font-family: Playfair Display;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 1.333px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.content__February2018--content2 h3 a:hover {
+  color: #ffcc05;
+  transition: all 0.3s;
+}
+.content__February2018--content2 .content2--item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.content__February2018--content2 .content2--item a {
+  color: #c2c2c2;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+}
+.content__February2018--content2 a:hover {
+  color: #ffcc05;
+  transition: all 0.3s;
+}
+.content__February2018--content2 a:hover svg {
+  transition: all 0.3s;
+  fill: #ffcc05;
+}
+.content__February--slide {
+  margin-top: 5rem;
+}
+.content__February--img {
+  margin-top: 5rem;
+}
+.content__February--img img {
+  width: 100%;
+}
+.content__February2018--content3 {
+  background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/02/blog-post-quote.jpg);
+}
+.content__February2018--content3 h3 a {
+  color: white;
+}
+.content__February2018--content3 h4 {
+  font-size: 15px;
+  color: white;
+}
+.content__February2018--content3 p {
+  font-family: Kristi;
+  font-weight: 400;
+  line-height: 135px;
+  overflow: hidden;
+  font-size: 300px;
+  position: absolute;
+  color: #ffcc05;
+  margin-left: 55%;
+}
+.content__February--page {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 5rem 0 0 0;
+}
+.content__February--page a {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  transition: all 0.3s;
+}
+.content__February--page a:hover {
+  transition: all 0.3s;
+  color: #ffcc05;
+}
+.content__February--page a svg {
+  transition: all 0.3s;
+}
+.content__February--page a svg:hover {
+  fill: #ffcc05;
+  transition: all 0.3s;
+}
+/* ===================Comment=============== */
+.banner__comment {
+  background-image: url(https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/blog-title-img.jpg);
+}
+.content__February2018--nextPage {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.content__February2018--nextPage a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.content__February2018--nextPage button {
+  background-color: #ffcc05;
+  border: none;
+  padding: 1rem;
+  transition: all 0.3s;
+}
+.content__February2018--nextPage button:hover {
+  transition: all 0.3s;
+  background-color: #383838;
+}
+.content__Comment {
+  margin-top: 5rem;
+}
+.content__February2018--nextPage h5 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+
+.content__Comment h4 {
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  font-size: 20px;
+}
+.content__Comment--desc {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid rgba(133, 131, 131, 0.311);
+}
+.content__Comment--desc img {
+  border-radius: 50%;
+}
+.content__Comment--desc div h5 {
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #303030;
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  gap: 2rem;
+  font-size: 17px;
+}
+.content__Comment--desc div h5 p {
+  margin: 0;
+  font-size: 15px;
+  color: #c2c2c2;
+}
+.content__Comment--desc div p {
+  color: #c2c2c2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.content__Comment--desc div p:hover {
+  transition: all 0.3s;
+  color: #000000;
+}
+
+.content__Comment--form h3 {
+  font-weight: 700;
+  color: #303030;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+.content__Comment--form textarea {
+  width: 100%;
+  border: none;
+  background-color: #f9f9f9;
+  padding: 1rem 0 0 1rem;
+  cursor: pointer;
+}
+.content__Comment--form .form--input input {
+  background-color: #f9f9f9;
+  border: none;
+  padding: 1rem 0 1rem 1rem;
+  width: 32%;
+  cursor: pointer;
+}
+.content__Comment--form .form--input input::placeholder {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.content__Comment--form .form--input {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 2rem 0;
+}
+.content__Comment--form form button {
+  border: none;
+  background: #ffcc05;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  transition: all 0.3s;
+}
+.content__Comment--form form button:hover {
+  background-color: #383838;
+  transition: all 0.3s;
 }
