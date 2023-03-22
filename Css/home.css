@@ -51,6 +51,92 @@
   font-weight: 400;
 }
 
+/* =======Nav bar Mobile=============== */
+.nav__bars-btn {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: none;
+  transform: all 0.3s;
+}
+.nav__bars-btn:hover {
+  transition: all 0.3s;
+  fill: #ffcc05;
+  color: red;
+}
+
+.nav__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  animation: fadeIn linear 0.5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav__mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  background-color: rgb(255, 255, 255);
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform linear 0.5s, opacity linear 0.5s;
+}
+.nav__mobile-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+  transition: all 0.1s;
+  display: flex;
+}
+.nav__mobile-close:hover {
+  transition: all 0.3s;
+  background-color: red;
+}
+.nav__mobile-close:hover svg {
+  transition: all 0.3s;
+  width: 30px;
+  height: 30px;
+  fill: white;
+  background-color: rgb(255, 0, 0);
+}
+.nav__mobile .menu__logo {
+  margin-top: 1rem;
+}
+
+.nav__input {
+  display: none;
+}
+
+.nav__input:checked ~ .nav__overlay {
+  display: block;
+}
+.nav__input:checked ~ .nav__mobile {
+  transform: translateX(0%);
+  opacity: 1;
+}
+.menu__item--mobile {
+  margin: 2rem 0 0 2rem;
+}
+
+.nav__mobile .menu__item--mobile ul {
+  margin: 0 0 0 8rem;
+}
 /* Header */
 .header {
   background-color: black;
@@ -287,40 +373,43 @@ video {
 /* ============slide Form================= */
 .slide__form {
   position: absolute;
-  width: 100%;
-  top: 37rem;
+  width: 90%;
+  margin-top: -15rem;
   display: flex;
   justify-content: center;
+  margin-left: 5%;
 }
 .slide__form form {
   display: flex;
   justify-content: center;
-
+  width: 100%;
   padding: 1.5rem 2rem;
   background-color: white;
 }
 .slide__form form .slide__form--input {
-  width: 20rem;
-  height: 3.5rem;
+  width: 27%;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
-  border: 1px solid rgba(188, 184, 184, 0.841);
+  border: 1px solid rgba(188, 184, 184, 0.359);
 }
 .slide__form form input {
-  width: 20rem;
   outline: 0;
   border: none;
   cursor: pointer;
 }
 .slide__form form button {
   border: none;
-  width: 12rem;
-  height: 3.5rem;
-  background-color: rgb(255, 200, 0);
+  padding: 1rem 3rem;
+  background-color: #ffcc05;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.slide__form form button:hover {
+  background-color: #383838;
+  transition: all 0.3s;
 }
 .slide__form--input .slide__form--icon1 {
   color: rgb(255, 200, 0);
@@ -517,6 +606,10 @@ input::placeholder {
   font-weight: 700;
   margin: -5rem 0 0 2rem;
 }
+
+.content__content3 .content__content3--img .gridMobile {
+  display: none;
+}
 /* ============COntentt4============== */
 .content__content4 {
   background-color: white;
@@ -574,20 +667,10 @@ input::placeholder {
 }
 /* =====Content5======= */
 .content__content5 {
-  /* background-color: black; */
-  /* width: 100%; */
   display: flex;
-  height: 40rem;
 }
-.content__content5--left {
-  width: 50%;
-  max-width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 7rem 0;
-}
-.content__content5--left h1 {
+
+.content__content5 h1 {
   font-family: Kristi;
   font-size: 65px;
   line-height: 1em;
@@ -595,13 +678,13 @@ input::placeholder {
   text-transform: capitalize;
   color: #ffcc05;
 }
-.content__content5--left p {
+.content__content5 p {
   color: #ffffff;
   font-size: 13.5pt;
   text-align: justify;
   display: flex;
 }
-.content__content5--left a span {
+.content__content5 a span {
   color: #ffcc05;
   font-size: 12px;
   font-weight: 700;
@@ -700,10 +783,12 @@ input::placeholder {
 /* =======Content Form Email================ */
 .content__formEmail {
   display: flex;
+  /* justify-content: space-between; */
   margin-left: 5%;
   margin-top: -2rem;
+
   width: 90%;
-  gap: 5rem;
+  /* gap: 5rem; */
   z-index: 2;
   position: absolute;
   background-image: url(https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/h1-img-7.jpg?id=222);
@@ -711,6 +796,7 @@ input::placeholder {
 .content__formEmail--desc {
   margin-left: 2rem;
   margin-top: 1.5rem;
+  width: 25%;
 }
 .content__formEmail--desc h3 {
   color: #303030;
@@ -728,15 +814,15 @@ input::placeholder {
 }
 .content__formEmail--btn {
   display: flex;
-
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 2rem 3rem 0;
+  width: 75%;
 }
 .content__formEmail--btn input {
   color: #3f3f3f;
   font-size: 15px;
   border: none;
-  width: 45rem;
-  height: 3.5rem;
+  width: 100%;
+
   outline: 0;
   padding-left: 1rem;
 }
@@ -1149,6 +1235,12 @@ input::placeholder {
   align-items: center;
   gap: 3rem;
 }
+.content3__container1--img {
+  width: 55%;
+}
+.content3__container1--desc {
+  width: 45%;
+}
 .aboutUs__content3--container1 img {
   width: 100%;
 }
@@ -1183,12 +1275,22 @@ input::placeholder {
   margin-top: 4rem;
   font-family: Cabin, sans-serif;
 }
+.aboutUs__content3--container2 .content3__container2--desc {
+  width: 55%;
+}
+.aboutUs__content3--container2 .content3__container2--img {
+  width: 45%;
+}
 /* =====Content4===== */
 .aboutUs__content4 {
   padding: 78px 88px 78px 88px;
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
+  /* justify-content: space-between; */
   /* background-color: red; */
+}
+.aboutUs__content4 div img {
+  width: 100%;
 }
 /* ==================================ourTeam========================================= */
 .banner--ourTeam {
@@ -1621,10 +1723,8 @@ input::placeholder {
   background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/03/banner-laos.jpg);
 }
 /* ==================================================================== */
-/* ====================About Us===================== */
-.map {
-  /* height: 100rem; */
-}
+/* ====================Contact Us===================== */
+
 .map .menu {
   background-color: white;
 }
@@ -1790,6 +1890,10 @@ input::placeholder {
   flex-direction: column;
   margin: 0 1.5rem;
 }
+.listContent__content .list__content--imgDesc .content__imgDesc--time {
+  display: flex;
+  gap: 2rem;
+}
 .listContent__content .list__content--imgDesc a {
   text-decoration: none;
 }
@@ -1854,6 +1958,8 @@ input::placeholder {
 .list__content--right form .content__right--form1 div {
   border: 2px solid rgba(167, 167, 167, 0.247);
   background-color: white;
+  display: flex;
+  align-items: center;
 }
 .list__content--right form > div svg {
   margin-left: 1rem;

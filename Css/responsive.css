@@ -1,0 +1,791 @@
+@media (min-width: 1200px) and (max-width: 1270px) {
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 20%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  /* =============Home============ */
+  #navbar .item {
+    font-size: 13px;
+  }
+  .header {
+    gap: 15rem;
+  }
+  .slide .menu .menu__item .item {
+    font-size: 13px;
+  }
+  .slide__title h1 {
+    font-size: 50px;
+  }
+  .slide__title p {
+    font-size: 15px;
+  }
+  .slide__form form button {
+    font-size: 10px;
+  }
+  .content__content1 {
+    padding: 5rem 5rem;
+  }
+  .content__content1 .content1__left--desc h3 {
+    font-size: 20px;
+  }
+  .content__content1 .content__content1--right h3 {
+    font-size: 25px;
+  }
+  .content__content1 .content__content1--right p {
+    font-size: 17px;
+  }
+  .content__content4--img p {
+    font-size: 14px;
+  }
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 25px;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 15px;
+  }
+  /* ===================About Us========================= */
+  .banner--aboutUs .menu .menu__item .item {
+    font-size: 13px;
+  }
+  .content2__left--desc {
+    margin-top: -40rem;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  /* ==============Contact Us=================== */
+  .map .menu .menu__item .item {
+    font-size: 13px;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 20%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  #navbar .item {
+    font-size: 12px;
+  }
+  .header {
+    gap: 10rem;
+  }
+  .slide .menu .menu__item .item {
+    font-size: 12px;
+  }
+  .slide__title h1 {
+    font-size: 50px;
+  }
+  .slide__title p {
+    font-size: 15px;
+  }
+  .slide__form form button {
+    font-size: 10px;
+  }
+  .content__content1 {
+    padding: 5rem 5rem;
+  }
+  .content__content1 .content1__left--desc h3 {
+    font-size: 20px;
+  }
+  .content__content1 .content__content1--right h3 {
+    font-size: 25px;
+  }
+  .content__content1 .content__content1--right p {
+    font-size: 17px;
+  }
+  .content__content4--img p {
+    font-size: 14px;
+  }
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 25px;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 15px;
+  }
+
+  /* ===================About Us========================= */
+  .banner--aboutUs .menu .menu__item .item {
+    font-size: 12px;
+  }
+  .content2__left--desc {
+    margin-top: -40rem;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  .content2__left--hover.img--2 figure img {
+    width: 115%;
+  }
+  /* ==============Contact Us=================== */
+  .map .menu .menu__item .item {
+    font-size: 12px;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 20%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #navbar .menu__item {
+    display: none;
+  }
+  #navbar .nav__mobile .menu__item--mobile {
+    display: block;
+  }
+  .nav__bars-btn {
+    display: block;
+  }
+  .header .headerLeft__foolow--text {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .slide .menu {
+    top: 0;
+    background-color: white;
+  }
+  .slide .menu .menu--content {
+    gap: 3rem;
+  }
+  .slide .menu .menu__item {
+    display: none;
+  }
+
+  .slide__title h1 {
+    font-size: 40px;
+    margin-top: -8rem;
+  }
+  .slide__title p {
+    font-size: 15px;
+  }
+  .slide__form form {
+    margin-top: 5rem;
+  }
+  .slide__form form button {
+    font-size: 12px;
+    padding: 1rem 1.5rem;
+  }
+  .content__content1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    gap: 1rem;
+  }
+  .content__content1 .content__content1--left {
+    max-width: 100%;
+  }
+  .content__content1 .content__content1--right {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content__content1 .content__content1--right p {
+    margin: 0;
+  }
+  .content__content2 {
+    padding: 0;
+  }
+  .content__content2 h2 {
+    font-size: 40px;
+  }
+  .content__content2 p {
+    padding: 1rem 4rem;
+  }
+  .content__content3 {
+    padding-bottom: 0rem;
+  }
+  .content__content3 .content__content3--img .grid-container {
+    display: none;
+  }
+  .content__content3 .content__content3--img .gridMobile {
+    display: grid;
+    gap: 1rem;
+  }
+  .content__content3 .content__content3--img .gridMobile .item1 {
+    grid-column: 1 / 3;
+  }
+
+  .content__content3 .content__content3--img .gridMobile .item2 {
+    grid-row: 2 / 4;
+
+    grid-column: 1 / 2;
+  }
+  .content__content3 .content__content3--img .gridMobile .item3 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  .content__content4 .content__content4--img {
+    display: flex;
+    flex-direction: column;
+  }
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__content5 .content7__left--desc {
+    width: 40%;
+    margin-left: 4%;
+  }
+  .content__content6 .content__content6--img h5 {
+    font-size: 18px;
+  }
+  .content__content6 .content__content6--img h6 {
+    font-size: 13px;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 17px;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 13px;
+  }
+  .footer__container {
+    padding: 4rem 0;
+  }
+  .footer__container--content {
+    gap: 1rem;
+  }
+
+  /* ===================About Us========================= */
+
+  .banner--aboutUs .menu .menu__item {
+    display: none;
+  }
+  .banner--aboutUs .menu {
+    top: 0;
+    background-color: white;
+  }
+  .content2__left--hover.img--2 figure img {
+    width: 150%;
+  }
+  .content2__left--desc {
+    width: 70%;
+    margin: -35rem 0 0 15%;
+  }
+  .content2__right--desc {
+    width: 70%;
+    margin: -35rem 0 0 -35%;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  .content--ourTeam .container {
+    max-width: 500px;
+  }
+  /* ===============Destinations/VietNam===================== */
+  .listContent {
+    width: 100%;
+  }
+  /* ===============Destination/ThaiLand================ */
+  .content__vietnam1 {
+    flex-direction: column;
+  }
+  .content__vietnam1--left {
+    width: 100%;
+    text-align: justify;
+  }
+  .content__vietnam1--left h1 {
+    text-align: center;
+  }
+  .content__vietnam1--right {
+    width: 100%;
+  }
+  .imgThailand {
+    display: none;
+  }
+  /* ===============Destinations/Cambodia======================== */
+  .imgCambodia {
+    display: none;
+  }
+  /* ==================Destinations/Laos=============== */
+  .imgLaos {
+    display: none;
+  }
+  /* ===========Contact Us================== */
+  .map .menu {
+    top: 0;
+    background-color: white;
+  }
+  .map .menu .menu--content {
+    gap: 3rem;
+  }
+  .map .menu .menu__item {
+    display: none;
+  }
+  .content__contactUs {
+    flex-direction: column;
+  }
+  .content__contactUs--left {
+    width: 100%;
+  }
+  .content__contactUs--left h3 {
+    text-align: center;
+  }
+  .content__contactUs--left form button {
+    margin-left: 35%;
+  }
+  .content__contactUs--right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 20%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 300px;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .listContent__content .list__content--imgDesc {
+    margin: 0;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 118%;
+    margin-left: -3rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #navbar .menu__item {
+    display: none;
+  }
+
+  #navbar .nav__mobile .menu__item--mobile {
+    display: block;
+  }
+
+  .nav__bars-btn {
+    display: block;
+    z-index: 999;
+  }
+  .header .headerLeft__foolow--text {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .slide .menu {
+    top: 0;
+    background-color: white;
+  }
+  .slide .menu .menu--content {
+    gap: 4rem;
+  }
+  .slide .menu .menu__item {
+    gap: 1rem;
+    display: none;
+  }
+
+  .slide .menu .menu__item .item {
+    font-size: 10px;
+    color: black;
+  }
+  .slide__title h1 {
+    font-size: 40px;
+    margin-top: -8rem;
+  }
+  .slide__title p {
+    font-size: 15px;
+  }
+  .slide__form form {
+    margin-top: 15rem;
+  }
+  .slide__form form button {
+    font-size: 7px;
+    padding: 1rem 1.5rem;
+  }
+  .content__content1 {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0 3rem 0;
+    gap: 1rem;
+  }
+  .content__content1 .content__content1--left {
+    max-width: 100%;
+  }
+  .content__content1 .content__content1--right {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content__content1 .content__content1--right p {
+    margin: 0;
+  }
+  .content__content2 {
+    padding: 0;
+  }
+  .content__content2 h2 {
+    font-size: 40px;
+  }
+  .content__content2 p {
+    padding: 1rem 4rem;
+  }
+  .content__content3 {
+    padding-bottom: 0rem;
+  }
+  .content__content3 .content__content3--img .grid-container {
+    display: none;
+  }
+  .content__content3 .content__content3--img .gridMobile {
+    display: grid;
+    gap: 1rem;
+  }
+  .content__content3 .content__content3--img .gridMobile .item1 {
+    grid-column: 1 / 3;
+  }
+
+  .content__content3 .content__content3--img .gridMobile .item2 {
+    grid-row: 2 / 4;
+
+    grid-column: 1 / 2;
+  }
+  .content__content3 .content__content3--img .gridMobile .item3 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  .content__content4 .content__content4--img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__content5 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+  }
+  .content__content6 .content__content6--img {
+    flex-direction: column;
+  }
+  .content__content6 .content__content6--img img {
+    width: 70%;
+  }
+  .content__content6 .content__content6--img h5 {
+    font-size: 18px;
+  }
+  .content__content6 .content__content6--img h6 {
+    font-size: 13px;
+  }
+  .content__formEmail {
+    margin-left: 3%;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 13px;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 10px;
+  }
+  .content__formEmail--btn button {
+    height: 50px;
+    line-height: 50px;
+  }
+  .content__content7 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  .footer__container--content1 {
+    width: 100%;
+  }
+  .footer__container--content {
+    display: grid;
+    gap: 2rem;
+  }
+  .footer__container--content1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .footer__container--content2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .footer__container--content3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .footer__container--content4 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content4--ShareAndVisa {
+    align-items: center;
+  }
+
+  /* ===================About Us========================= */
+
+  .banner--aboutUs .menu .menu__item {
+    display: none;
+  }
+  .banner--aboutUs .menu {
+    top: 0;
+    background-color: white;
+  }
+  .content2__left--hover.img--2 figure img {
+    width: 200%;
+  }
+  .content2__left--desc {
+    width: 70%;
+    margin: -40rem 0 0 15%;
+  }
+  .content2__right--desc {
+    width: 70%;
+    margin: -35rem 0 0 -35%;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  /* ===============Destinations/VietNam===================== */
+  .listContent {
+    width: 100%;
+  }
+  /* ===============Destination/ThaiLand================ */
+  .content__vietnam1 {
+    flex-direction: column;
+  }
+  .content__vietnam1--left {
+    width: 100%;
+    text-align: justify;
+  }
+  .content__vietnam1--left h1 {
+    text-align: center;
+  }
+  .content__vietnam1--right {
+    width: 100%;
+  }
+  .imgThailand {
+    display: none;
+  }
+  /* ===============Destinations/Cambodia======================== */
+  .imgCambodia {
+    display: none;
+  }
+  /* ==================Destinations/Laos=============== */
+  .imgLaos {
+    display: none;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 40%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 300px;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .listContent__content .list__content--imgDesc {
+    margin: 0;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 148%;
+    margin-left: -6rem;
+  }
+}
