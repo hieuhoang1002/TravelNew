@@ -51,11 +51,13 @@
     <div id="navbar" class="menu">
       <div class="menu--content">
         <div class="menu__logo">
-          <img
-            style="width: 50%"
-            src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
-            alt=""
-          />
+          <a href="../home.html">
+            <img
+              style="width: 50%"
+              src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
+              alt=""
+            />
+          </a>
         </div>
         <div class="menu__item">
           <div>
@@ -246,34 +248,68 @@
               />
             </svg>
           </label>
-          <div class="menu__item menu__item--mobile">
+
+          <div class="menu__item--mobile">
             <div>
-              <a href="./home.html" class="item menu__item--color">HOME</a>
+              <a href="../home.html" class="item__navMobile menu__item--color"
+                >HOME</a
+              >
             </div>
 
             <div>
-              <a href="#" class="item">ABOUT US</a>
-              <ul>
-                <li><a href="./AboutUs/aboutUs.html">About Us</a></li>
-                <li><a href="./AboutUs/ourTeam.html">Meet Our team</a></li>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT US
+              </a>
+
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; margin-left: 2rem"
+              >
+                <li>
+                  <a href="./aboutUs.html">About Us</a>
+                </li>
+                <li>
+                  <a href="./ourTeam.html">Meet Our team</a>
+                </li>
               </ul>
             </div>
 
             <div>
-              <a href="#" class="item">EXPERIENCES</a>
-              <ul>
-                <li><a href="./Experiences/blogs.html">Blogs</a></li>
-                <li><a href="./Experiences/travelNew.html">Travel News</a></li>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >EXPERIENCES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
+                <li><a href="../Experiences/blogs.html">Blogs</a></li>
+                <li><a href="../Experiences/travelNew.html">Travel News</a></li>
               </ul>
             </div>
 
             <div>
-              <a href="./Destinations/destinations.html" class="item"
+              <a
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="../Destinations/destinations.html"
+                class="item item__navMobile--1"
                 >DESTINATIONS</a
               >
-              <ul>
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; width: 50%"
+              >
                 <li>
-                  <a href="../Html/Destinations/vietnam.html">
+                  <a href="../Destinations/vietnam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/02/170606122114-vietnam-travel-destination-shutterstock-168342398-300x169.jpg"
                       alt=""
@@ -282,7 +318,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="../Html/Destinations/thailand.html">
+                  <a href="../Destinations/thailand.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/02/3_106_thailand_02-300x169.jpg"
                       alt=""
@@ -291,7 +327,7 @@
                   >
                 </li>
                 <li>
-                  <a href="../Html/Destinations/cambodia.html">
+                  <a href="../Destinations/cambodia.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/07/New-Project-2020-10-29T162349.558-300x157.png"
                       alt=""
@@ -300,7 +336,7 @@
                   >
                 </li>
                 <li>
-                  <a href="./Destinations/laos.html">
+                  <a href="../Destinations/laos.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/07/phnom-bok-03-600_orig-1-300x200.jpg"
                       alt=""
@@ -312,10 +348,17 @@
             </div>
 
             <div class="menu__item--tour">
-              <a href="" class="item">TOUR STYLES</a>
-              <ul>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >TOUR STYLES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
                 <li>
-                  <a href="./TourStyles/luxury.html">
+                  <a href="../TourStyles/luxury.html">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -328,7 +371,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="../TourStyles/luxury.html">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -409,7 +452,7 @@
             </div>
 
             <div>
-              <a href="./ContactUs/contactUs.html" class="item">CONTACT US</a>
+              <a href="../ContactUs/contactUs.html" class="item">CONTACT US</a>
             </div>
           </div>
         </nav>
@@ -522,11 +565,13 @@
       <div class="menu">
         <div class="menu--content">
           <div class="menu__logo">
-            <img
-              style="width: 50%"
-              src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
-              alt=""
-            />
+            <a href="../home.html">
+              <img
+                style="width: 50%"
+                src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
+                alt=""
+              />
+            </a>
           </div>
           <div class="menu__item">
             <div>

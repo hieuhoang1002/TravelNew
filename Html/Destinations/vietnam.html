@@ -50,11 +50,13 @@
     <div id="navbar" class="menu">
       <div class="menu--content">
         <div class="menu__logo">
-          <img
-            style="width: 50%"
-            src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
-            alt=""
-          />
+          <a href="../home.html">
+            <img
+              style="width: 50%"
+              src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
+              alt=""
+            />
+          </a>
         </div>
         <div class="menu__item">
           <div>
@@ -243,34 +245,68 @@
               />
             </svg>
           </label>
-          <div class="menu__item menu__item--mobile">
+
+          <div class="menu__item--mobile">
             <div>
-              <a href="./home.html" class="item menu__item--color">HOME</a>
+              <a href="../home.html" class="item__navMobile menu__item--color"
+                >HOME</a
+              >
             </div>
 
             <div>
-              <a href="#" class="item">ABOUT US</a>
-              <ul>
-                <li><a href="./AboutUs/aboutUs.html">About Us</a></li>
-                <li><a href="./AboutUs/ourTeam.html">Meet Our team</a></li>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT US
+              </a>
+
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; margin-left: 2rem"
+              >
+                <li>
+                  <a href="../AboutUs/aboutUs.html">About Us</a>
+                </li>
+                <li>
+                  <a href="../AboutUs/ourTeam.html">Meet Our team</a>
+                </li>
               </ul>
             </div>
 
             <div>
-              <a href="#" class="item">EXPERIENCES</a>
-              <ul>
-                <li><a href="./Experiences/blogs.html">Blogs</a></li>
-                <li><a href="./Experiences/travelNew.html">Travel News</a></li>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >EXPERIENCES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
+                <li><a href="../Experiences/blogs.html">Blogs</a></li>
+                <li><a href="../Experiences/travelNew.html">Travel News</a></li>
               </ul>
             </div>
 
             <div>
-              <a href="./Destinations/destinations.html" class="item"
+              <a
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="./destinations.html"
+                class="item item__navMobile--1"
                 >DESTINATIONS</a
               >
-              <ul>
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; width: 50%"
+              >
                 <li>
-                  <a href="../Html/Destinations/vietnam.html">
+                  <a href="./vietnam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/02/170606122114-vietnam-travel-destination-shutterstock-168342398-300x169.jpg"
                       alt=""
@@ -279,7 +315,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="../Html/Destinations/thailand.html">
+                  <a href=".thailand.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/02/3_106_thailand_02-300x169.jpg"
                       alt=""
@@ -288,7 +324,7 @@
                   >
                 </li>
                 <li>
-                  <a href="../Html/Destinations/cambodia.html">
+                  <a href=".cambodia.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/07/New-Project-2020-10-29T162349.558-300x157.png"
                       alt=""
@@ -297,7 +333,7 @@
                   >
                 </li>
                 <li>
-                  <a href="./Destinations/laos.html">
+                  <a href=".laos.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/07/phnom-bok-03-600_orig-1-300x200.jpg"
                       alt=""
@@ -309,10 +345,17 @@
             </div>
 
             <div class="menu__item--tour">
-              <a href="" class="item">TOUR STYLES</a>
-              <ul>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >TOUR STYLES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
                 <li>
-                  <a href="./TourStyles/luxury.html">
+                  <a href="../TourStyles/luxury.html">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -325,7 +368,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="../TourStyles/luxury.html">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -406,7 +449,7 @@
             </div>
 
             <div>
-              <a href="./ContactUs/contactUs.html" class="item">CONTACT US</a>
+              <a href="../ContactUs/contactUs.html" class="item">CONTACT US</a>
             </div>
           </div>
         </nav>
@@ -515,11 +558,13 @@
       <div class="menu">
         <div class="menu--content">
           <div class="menu__logo">
-            <img
-              style="width: 50%"
-              src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
-              alt=""
-            />
+            <a href="../home.html">
+              <img
+                style="width: 50%"
+                src="https://vietauroratravel.com/wp-content/uploads/2022/05/vietaurora.png"
+                alt=""
+              />
+            </a>
           </div>
           <div class="menu__item">
             <div>
@@ -751,80 +796,112 @@
       </div>
 
       <div class="content__vietnam2">
-        <div class="grid-container">
-          <div class="item1">
-            <h1>Vietnam Travel guide</h1>
-          </div>
-          <div class="item2" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/hanoi.jpg"
-                alt=""
-              />
-              <p>Hanoi</p>
+        <div class="item1">
+          <h1>Vietnam Travel guide</h1>
+        </div>
+        <div class="content__vietnam2--container">
+          <div class="vietnam2__container--1">
+            <div class="vietnam2__item--hover">
+              <div class="item2">
+                <p>Hanoi</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>HaNoi</p>
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="vietnam2__item--hover">
+              <div class="item3">
+                <p>Sapa</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Sapa</p>
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="vietnam2__item--hover">
+              <div class="item4">
+                <p>HalongBay</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>HalongBay</p>
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="vietnam2__item--hover">
+              <div class="item5">
+                <p>Ho Chi Minh City</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Ho Chi Minh City</p>
+
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="item3" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/sapa.jpg"
-                alt=""
-              />
-              <p>Sapa</p>
+
+          <div class="vietnam2__container--2">
+            <div class="vietnam2__item--hover">
+              <div class="item6">
+                <p>Hue</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Hue</p>
+
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="item4" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/halong.jpg"
-                alt=""
-              />
-              <p>HalongBay</p>
+
+            <div class="vietnam2__item--hover">
+              <div class="item7">
+                <p>Hoi An</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Hoi An</p>
+
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="item5" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/hcm.jpg"
-                alt=""
-              />
-              <p>Ho Chi Minh City</p>
+
+            <div class="vietnam2__item--hover">
+              <div class="item8">
+                <p>Phu Quoc Island</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Phu Quoc Island</p>
+
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="item6" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/hue.jpg"
-                alt=""
-              />
-              <p>Hue</p>
-            </div>
-          </div>
-          <div class="item7" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/hoian.jpg"
-                alt=""
-              />
-              <p>Hoi An</p>
-            </div>
-          </div>
-          <div class="item8" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/phuquoc.jpg"
-                alt=""
-              />
-              <p>Phu Quoc Island</p>
-            </div>
-          </div>
-          <div class="item9" style="padding: 0">
-            <div>
-              <img
-                src="https://vietauroratravel.com/wp-content/uploads/2022/06/mekong.jpg"
-                alt=""
-              />
-              <p>Mekong Delta</p>
+
+            <div class="vietnam2__item--hover">
+              <div class="item9">
+                <p>Mekong Delta</p>
+              </div>
+              <div class="vietnam2__item--desc">
+                <p>Mekong Delta</p>
+
+                <a href="./viewHaNoi.html">
+                  <button>view</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -843,7 +920,7 @@
             <div class="col">
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/03/5-1-550x500.jpg"
                       alt=""
@@ -851,7 +928,9 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">5 DAYS NORTH OF VIETNAM WITH 5 STAR CRUISE</a>
+                  <a href="./cruisingVnCam.html"
+                    >5 DAYS NORTH OF VIETNAM WITH 5 STAR CRUISE</a
+                  >
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -862,7 +941,7 @@
               </div>
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/03/1-1-550x500.jpg"
                       alt=""
@@ -870,7 +949,7 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">HIGHLIGHT OF VIETNAM</a>
+                  <a href="./cruisingVnCam.html">HIGHLIGHT OF VIETNAM</a>
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -884,7 +963,7 @@
             <div class="col">
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/09/Saigon_Central_Post_Office-550x550.jpg"
                       alt=""
@@ -892,7 +971,7 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">CRUISING VIETNAM – CAMBODIA</a>
+                  <a href="./cruisingVnCam.html">CRUISING VIETNAM – CAMBODIA</a>
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -903,7 +982,7 @@
               </div>
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/03/touvn1-550x550.jpg"
                       alt=""
@@ -911,7 +990,9 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">HIGHLY AND RELAXING VIETNAM 12D11N</a>
+                  <a href="./cruisingVnCam.html"
+                    >HIGHLY AND RELAXING VIETNAM 12D11N</a
+                  >
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -925,7 +1006,7 @@
             <div class="col">
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2022/09/exo-travel-vietnam-discover-vietnam-s-central-highlands-gallery-85519786_800_450_80_c1-550x450.webp"
                       alt=""
@@ -933,7 +1014,9 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">DISCOVER VIETNAM’S CENTRAL HIGHLANDS</a>
+                  <a href="./cruisingVnCam.html"
+                    >DISCOVER VIETNAM’S CENTRAL HIGHLANDS</a
+                  >
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -944,7 +1027,7 @@
               </div>
               <div>
                 <div>
-                  <a href="">
+                  <a href="./cruisingVnCam.html">
                     <img
                       src="https://vietauroratravel.com/wp-content/uploads/2018/03/touvn2-550x550.jpg"
                       alt=""
@@ -952,7 +1035,7 @@
                   </a>
                 </div>
                 <h4>
-                  <a href="">HIGHLIGHT OF VIETNAM</a>
+                  <a href="./cruisingVnCam.html">HIGHLIGHT OF VIETNAM</a>
                 </h4>
                 <span>/ per person</span>
                 <p>
@@ -976,13 +1059,6 @@
 
         <!-- --------------->
         <div class="listContent">
-          <!-- <div class="listContent__list" style="display: none">
-            <div class="listContent__list--desc active">
-              <div class="list__icon--noneHover active"></div>
-              <div class="listContent__list--icon active"></div>
-            </div>
-            <div class="listContent__list--content active"></div>
-          </div> -->
           <div class="listContent__list">
             <div class="listContent__list--desc">
               Culture & Tradition

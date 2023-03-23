@@ -248,32 +248,65 @@
             </svg>
           </label>
 
-          <div class="menu__item menu__item--mobile">
+          <div class="menu__item--mobile">
             <div>
-              <a href="./home.html" class="item menu__item--color">HOME</a>
+              <a href="./home.html" class="item__navMobile menu__item--color"
+                >HOME</a
+              >
             </div>
 
             <div>
-              <a href="#" class="item">ABOUT US</a>
-              <ul>
-                <li><a href="./AboutUs/aboutUs.html">About Us</a></li>
-                <li><a href="./AboutUs/ourTeam.html">Meet Our team</a></li>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT US
+              </a>
+
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; margin-left: 2rem"
+              >
+                <li>
+                  <a href="./AboutUs/aboutUs.html">About Us</a>
+                </li>
+                <li>
+                  <a href="./AboutUs/ourTeam.html">Meet Our team</a>
+                </li>
               </ul>
             </div>
 
             <div>
-              <a href="#" class="item">EXPERIENCES</a>
-              <ul>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >EXPERIENCES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
                 <li><a href="./Experiences/blogs.html">Blogs</a></li>
                 <li><a href="./Experiences/travelNew.html">Travel News</a></li>
               </ul>
             </div>
 
             <div>
-              <a href="./Destinations/destinations.html" class="item"
+              <a
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="./Destinations/destinations.html"
+                class="item item__navMobile--1"
                 >DESTINATIONS</a
               >
-              <ul>
+              <ul
+                class="dropdown-menu"
+                style="background-color: #000000; width: 50%"
+              >
                 <li>
                   <a href="../Html/Destinations/vietnam.html">
                     <img
@@ -314,8 +347,15 @@
             </div>
 
             <div class="menu__item--tour">
-              <a href="" class="item">TOUR STYLES</a>
-              <ul>
+              <a
+                class="item item__navMobile--1"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >TOUR STYLES</a
+              >
+              <ul class="dropdown-menu" style="background-color: #000000">
                 <li>
                   <a href="./TourStyles/luxury.html">
                     <svg
@@ -873,7 +913,10 @@
           <div class="content1__left--desc">
             <h1>Get Inspired</h1>
             <h3>Vietnam 4K Asian Relaxation Film</h3>
-            <div style="margin-top: 2rem; position: absolute; cursor: pointer">
+            <div
+              class="iconPlayer js-btn"
+              style="margin-top: 2rem; position: absolute; cursor: pointer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="70"
@@ -887,6 +930,19 @@
                 />
               </svg>
             </div>
+            <!-- ==============ModalVideo================== -->
+
+            <div class="modal js-modal">
+              <div class="modal-container js-modal-container">
+                <video controls>
+                  <source
+                    src="../../Video/Vietnam - Land of ancient secrets - Cinematic Travel.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+            <!-- ========================================== -->
           </div>
         </div>
         <div class="content__content1--right">
@@ -1210,7 +1266,7 @@
         <div class="content__content7--left hover">
           <figure>
             <img
-              style="height: 40rem"
+              style="height: 50rem"
               src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/h1-img-9.jpg?id=252"
               alt=""
             />
@@ -1221,8 +1277,175 @@
                 be better every day. Thus, each of our travelers’ feedback is
                 absolutely valuable to us.
               </p>
+              <div style="margin-top: 20rem; display: flex">
+                <p style="text-align: center">
+                  <span class="nowrap"
+                    ><strong style="color: #000000">Tripadvisor</strong> rating
+                    score:</span
+                  ><span class="nowrap"
+                    ><strong style="color: #000000">5.0</strong> of 5,</span
+                  ><br />
+                  <span class="nowrap"
+                    >based on
+                    <strong style="color: #000000">7 reviews</strong>.</span
+                  >
+                </p>
+              </div>
+              <a href="">VIEW ALL REVIEW</a>
             </div>
           </figure>
+          <!-- 
+                ======= Slide===========
+               -->
+
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide content7__slide"
+          >
+            <div
+              class="carousel-indicators content7__slide--btn2"
+              style="bottom: -230px"
+            >
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+                style="
+                  height: 10px;
+                  width: 10px;
+                  border: 1px solid black;
+                  border-radius: 50%;
+                  background-color: rgb(64, 64, 64);
+                "
+              ></button>
+
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                style="
+                  height: 10px;
+                  width: 10px;
+                  border: 1px solid black;
+                  border-radius: 50%;
+                  background-color: rgb(64, 64, 64);
+                "
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="content7__slide--time">
+                  <b>VagrantTraveller</b>
+                  <p>5 January, 2023</p>
+                </div>
+                <div
+                  style="background-color: rgb(255, 255, 255); padding: 1rem"
+                >
+                  <div class="content7__slide--img">
+                    <img
+                      src="https://vietauroratravel.com/wp-content/plugins/wp-tripadvisor-review-slider/public/partials/imgs/tripadvisor_stars_5.png"
+                      alt="..."
+                    />
+                    <img
+                      src="https://vietauroratravel.com/wp-content/plugins/wp-tripadvisor-review-slider/public/partials/imgs/tripadvisor_outline.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="content7__slide--desc">
+                    <p>
+                      I booked 7 days trip to Vietnam through Viet Aurora (found
+                      them via Travel Triangle) and was pleasantly greeted by
+                      Hannah. She was very helpful and patient in planning the
+                    </p>
+                    <a href="">... read more</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="content7__slide--time">
+                  <b>VagrantTraveller</b>
+                  <p>5 January, 2023</p>
+                </div>
+                <div
+                  style="background-color: rgb(255, 255, 255); padding: 1rem"
+                >
+                  <div class="content7__slide--img">
+                    <img
+                      src="https://vietauroratravel.com/wp-content/plugins/wp-tripadvisor-review-slider/public/partials/imgs/tripadvisor_stars_5.png"
+                      alt="..."
+                    />
+                    <img
+                      src="https://vietauroratravel.com/wp-content/plugins/wp-tripadvisor-review-slider/public/partials/imgs/tripadvisor_outline.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="content7__slide--desc">
+                    <p>
+                      I Rajendra Kakkad arranged my trip to Vietnam with Viet
+                      Aurora and Hannah Vu took care of everything for me. Me &
+                      my wife had such a wonderful time in
+                    </p>
+                    <a href="">... read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide__icon--btn">
+              <button
+                class="content7__slide--prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-chevron-left"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                    />
+                  </svg>
+                </span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="content7__slide--next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
         <div class="content__content7--right"></div>
       </div>
@@ -1481,5 +1704,6 @@
 
     <script src="../Js/navbar.js"></script>
     <script src="../Js/scroll.js"></script>
+    <script src="../Js/modalVideo.js"></script>
   </body>
 </html>

@@ -245,6 +245,12 @@
   .nav__bars-btn {
     display: block;
   }
+  .nav__mobile {
+    display: block;
+  }
+  .nav__overlay {
+    /* display: block; */
+  }
   .header .headerLeft__foolow--text {
     display: none;
   }
@@ -510,7 +516,9 @@
   #navbar .nav__mobile .menu__item--mobile {
     display: block;
   }
-
+  .nav__mobile {
+    display: block;
+  }
   .nav__bars-btn {
     display: block;
     z-index: 999;
@@ -602,6 +610,288 @@
     grid-row: 2 / 3;
     grid-column: 2 / 3;
   }
+  .content__content4 .content__content4--img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__content5 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+  }
+  .content__content6 .content__content6--img {
+    flex-direction: column;
+  }
+  .content__content6 .content__content6--img img {
+    width: 70%;
+  }
+  .content__content6 .content__content6--img h5 {
+    font-size: 18px;
+  }
+  .content__content6 .content__content6--img h6 {
+    font-size: 13px;
+  }
+  .content__formEmail {
+    margin-left: 3%;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 13px;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 10px;
+  }
+  .content__formEmail--btn button {
+    height: 50px;
+    line-height: 50px;
+  }
+  .content__content7 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  .footer__container--content1 {
+    width: 100%;
+  }
+  .footer__container--content {
+    display: grid;
+    gap: 2rem;
+  }
+  .footer__container--content1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .footer__container--content2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .footer__container--content3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .footer__container--content4 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content4--ShareAndVisa {
+    align-items: center;
+  }
+
+  /* ===================About Us========================= */
+
+  .banner--aboutUs .menu .menu__item {
+    display: none;
+  }
+  .banner--aboutUs .menu {
+    top: 0;
+    background-color: white;
+  }
+  .content2__left--hover.img--2 figure img {
+    width: 200%;
+  }
+  .content2__left--desc {
+    width: 70%;
+    margin: -40rem 0 0 15%;
+  }
+  .content2__right--desc {
+    width: 70%;
+    margin: -35rem 0 0 -35%;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  /* ===============Destinations/VietNam===================== */
+  .listContent {
+    width: 100%;
+  }
+  /* ===============Destination/ThaiLand================ */
+  .content__vietnam1 {
+    flex-direction: column;
+  }
+  .content__vietnam1--left {
+    width: 100%;
+    text-align: justify;
+  }
+  .content__vietnam1--left h1 {
+    text-align: center;
+  }
+  .content__vietnam1--right {
+    width: 100%;
+  }
+  .imgThailand {
+    display: none;
+  }
+  /* ===============Destinations/Cambodia======================== */
+  .imgCambodia {
+    display: none;
+  }
+  /* ==================Destinations/Laos=============== */
+  .imgLaos {
+    display: none;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 40%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 300px;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .listContent__content .list__content--imgDesc {
+    margin: 0;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 148%;
+    margin-left: -6rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 576px) {
+  #navbar .menu__item {
+    display: none;
+  }
+  .nav__mobile {
+    display: block;
+  }
+
+  #navbar .nav__mobile .menu__item--mobile {
+    display: block;
+  }
+
+  .nav__bars-btn {
+    display: block;
+    z-index: 999;
+  }
+  .header .headerLeft__foolow--text {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .slide .menu {
+    top: 0;
+    background-color: white;
+  }
+  .slide .menu .menu--content {
+    gap: 4rem;
+  }
+  .slide .menu .menu__item {
+    gap: 1rem;
+    display: none;
+  }
+
+  .slide__title h1 {
+    font-size: 20px;
+    margin-top: -10rem;
+  }
+  .slide__title p {
+    font-size: 12px;
+  }
+  .slide__form form {
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide__form form .slide__form--input {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .slide__form form button {
+    width: 100%;
+  }
+  .content__content1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20rem 0 3rem 0;
+    gap: 1rem;
+  }
+  .content__content1 .content__content1--left {
+    max-width: 100%;
+  }
+  .content__content1--left .content1__left--desc h3 {
+    font-size: 25px;
+  }
+  .content__content1 .content__content1--right {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content__content1 .content__content1--right p {
+    margin: 0;
+  }
+  .content__content2 {
+    padding: 0;
+  }
+  .content__content2 h2 {
+    font-size: 40px;
+  }
+  .content__content2 p {
+    padding: 1rem 4rem;
+  }
+  .content__content3 {
+    padding-bottom: 0rem;
+  }
+  .content__content3 .content__content3--img .gridMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .content__content3 .content__content3--img .grid-container {
+    display: none;
+  }
+
   .content__content4 .content__content4--img {
     display: flex;
     flex-direction: column;
