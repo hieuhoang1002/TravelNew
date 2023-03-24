@@ -630,7 +630,13 @@ input::placeholder {
   max-width: 100%;
   height: 100%;
 }
-
+.content__content3 .content__content3--img .item4 .item--desc p {
+  position: absolute;
+  font-size: 60px;
+  font-family: Kristi;
+  color: #ffcc05;
+  margin: -17rem 0 0 1rem;
+}
 .item--desc p {
   position: absolute;
   font-size: 60px;
