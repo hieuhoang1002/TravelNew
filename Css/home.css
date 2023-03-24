@@ -1613,6 +1613,10 @@ input::placeholder {
   display: flex;
   gap: 2rem;
 }
+.item__hover--1 {
+  display: flex;
+  gap: 2rem;
+}
 .vietnam2__container--2 {
   display: flex;
   gap: 2rem;
@@ -1766,6 +1770,17 @@ input::placeholder {
   z-index: 1;
 }
 
+.view--btnMobile {
+  color: white;
+  background-color: #ffcc05;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  position: absolute;
+  margin: -7rem 0 0 7rem;
+  display: none;
+}
+
 /* =================================== */
 
 /* ---------------------------------------------- */
@@ -1808,18 +1823,14 @@ input::placeholder {
   align-items: flex-start;
   gap: 0.5rem;
 }
-.content__vietnam3 .row {
-  gap: 1rem;
-}
+
 /* ----------------------------------- */
 /* =====================List Content===================== */
 
 .listContent {
   width: 50%;
   text-align: left;
-  /* display: flex;
-  flex-direction: column;
-  gap: 2rem; */
+
   margin-bottom: 3rem;
 }
 .listContent__list .listContent__list--desc {
@@ -1827,6 +1838,7 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid rgba(199, 199, 199, 0.332);
+  margin-left: 1rem;
 }
 .listContent__list--desc {
   cursor: pointer;
@@ -1910,6 +1922,7 @@ input::placeholder {
   font-size: 65px;
   line-height: 65px;
   font-weight: 500;
+  margin-left: 1rem;
 }
 .listContent2 a {
   color: #000000;
@@ -1925,22 +1938,28 @@ input::placeholder {
 .banner--thailand {
   background-image: url(https://vietauroratravel.com/wp-content/uploads/2018/03/thaibanner.jpg);
 }
-
-.content--thailand .content__vietnam2 span {
+.content__thailand2 {
+  margin: 5rem 0 10rem 0;
+}
+.content__thailand2 h1 {
+  color: #ffcc05;
+  font-family: Kristi;
+  font-size: 65px;
+  line-height: 65px;
+  text-align: center;
+}
+.content__thailand2 .row div div {
+  text-align: left;
+  margin-top: 2rem;
+}
+.content--thailand .content__thailand2 span {
   font-family: Cabin, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   color: #808285;
 }
-.content--thailand .content__vietnam2 .grid-container > div {
-  /* margin-top: 5rem; */
-  margin: -2rem 0 0 0;
-  text-align: left;
-}
-.content--thailand .content__vietnam2 .item1 h1 {
-  margin: 8rem 0 2rem 0;
-}
+
 .content--thailand .content__vietnam3 {
   padding: 0;
 }
@@ -2038,19 +2057,15 @@ input::placeholder {
 }
 .content--luxury {
   padding: 0 88px;
-  /* background-color: blue; */
 }
 .content--luxury > .listContent {
   width: 100%;
   display: flex;
   flex-direction: column;
-
-  /* background-color: red; */
 }
 .content--luxury .listContent .listContent__list {
-  /* margin-top: -2rem; */
   display: flex;
-  /* justify-content: space-between; */
+
   margin-top: -4rem;
   background-color: rgb(255, 255, 255);
 }
@@ -2173,6 +2188,60 @@ input::placeholder {
 .list__content--right input::placeholder {
   font-size: 15px;
 }
+/* ========================================= */
+
+.slideRange {
+  display: flex;
+  width: 90%;
+  height: 3rem;
+  border: 1px solid rgba(156, 156, 156, 0.575);
+  background-color: white;
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+.sliderRange {
+  width: 90%;
+  position: relative;
+  margin: 2rem 0 1rem 0;
+  height: 20px;
+}
+.sliderRange > input {
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background: #969696;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+  position: absolute;
+}
+.sliderRange input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #969696;
+  cursor: all-scroll;
+  position: relative;
+  z-index: 10;
+}
+.sliderRange input::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 0;
+  border-radius: 100%;
+  background: #969696;
+  cursor: all-scroll;
+}
+
+/* ========================================== */
 .list__content--right form {
   margin-left: 10%;
 }

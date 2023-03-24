@@ -70,6 +70,9 @@
   .banner--aboutUs .menu .menu__item .item {
     font-size: 13px;
   }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
   .content2__left--desc {
     margin-top: -40rem;
   }
@@ -175,6 +178,9 @@
   .banner--aboutUs .menu .menu__item .item {
     font-size: 12px;
   }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
   .content2__left--desc {
     margin-top: -40rem;
   }
@@ -232,6 +238,12 @@
     .list__content--img
     img {
     height: 350px;
+  }
+
+  /* =================Comment=================== */
+  .content__February2018 {
+    padding: 3rem 1rem;
+    width: 100%;
   }
 }
 
@@ -372,6 +384,9 @@
     top: 0;
     background-color: white;
   }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
   .content2__left--hover.img--2 figure img {
     width: 150%;
   }
@@ -409,6 +424,7 @@
   .listContent {
     width: 100%;
   }
+
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
     flex-direction: column;
@@ -506,9 +522,15 @@
     width: 118%;
     margin-left: -3rem;
   }
+
+  /* =================Comment=================== */
+  .content__February2018 {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 575px) and (max-width: 768px) {
   #navbar .menu__item {
     display: none;
   }
@@ -693,6 +715,9 @@
     top: 0;
     background-color: white;
   }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
   .content2__left--hover.img--2 figure img {
     width: 200%;
   }
@@ -726,6 +751,14 @@
   /* ===============Destinations/VietNam===================== */
   .listContent {
     width: 100%;
+  }
+  .content--vietnam {
+    margin: 3rem 1rem;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    flex-direction: column;
+    align-items: center;
   }
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
@@ -793,11 +826,72 @@
     margin: 0;
   }
   .content--luxury .listContent .listContent__list {
-    width: 148%;
+    width: 132%;
     margin-left: -6rem;
   }
+
+  /* ===========Contact Us================== */
+  .map .menu {
+    top: 0;
+    background-color: white;
+  }
+  .map .menu .menu--content {
+    gap: 3rem;
+  }
+  .map .menu .menu__item {
+    display: none;
+  }
+  .content__contactUs {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .content__contactUs--left {
+    width: 100%;
+  }
+  .content__contactUs--left h3 {
+    text-align: center;
+  }
+  .content__contactUs--left form button {
+    margin-left: 30%;
+  }
+  .content__contactUs--right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  /* ===================ViewHaNoi===================================== */
+
+  .content--luxury {
+    padding: 3rem 1rem;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 148%;
+  }
+
+  .content__cruisingVnCam--included {
+    flex-direction: column;
+  }
+  .content__cruisingVnCam--included .include {
+    width: 100%;
+  }
+  .hanoiView__content {
+    padding: 3rem 1rem;
+  }
+  .hanoiView__content1 {
+    flex-direction: column;
+  }
+  .hanoiView__content1 div {
+    width: 100%;
+  }
+  /* =================Comment=================== */
+  .content__February2018 {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
 }
-@media (min-width: 375px) and (max-width: 576px) {
+
+@media (min-width: 375px) and (max-width: 575px) {
   #navbar .menu__item {
     display: none;
   }
@@ -884,12 +978,17 @@
   .content__content3 {
     padding-bottom: 0rem;
   }
+
+  .content__content3 .content__content3--img .grid-container {
+    display: none;
+  }
   .content__content3 .content__content3--img .gridMobile {
     display: flex;
     flex-direction: column;
+    padding: 0 10px;
   }
-  .content__content3 .content__content3--img .grid-container {
-    display: none;
+  .gridMobile .item--desc p {
+    /* display: none; */
   }
 
   .content__content4 .content__content4--img {
@@ -903,6 +1002,7 @@
   .content__content5 .content7__left--desc {
     width: 90%;
     margin-left: 4%;
+    margin-top: -35rem;
   }
   .content__content6 .content__content6--img {
     flex-direction: column;
@@ -918,52 +1018,83 @@
   }
   .content__formEmail {
     margin-left: 3%;
+    flex-direction: column;
   }
   .content__formEmail .content__formEmail--desc h3 {
-    font-size: 13px;
+    font-size: 25px;
+    white-space: nowrap;
   }
   .content__formEmail .content__formEmail--desc h6 {
-    font-size: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  .content__formEmail--btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .content__formEmail--btn input {
+    height: 3rem;
   }
   .content__formEmail--btn button {
-    height: 50px;
+    width: 100%;
+    height: 100%;
     line-height: 50px;
+  }
+  .content__content7 {
+    flex-direction: column;
+  }
+
+  .content__content7--left {
+    width: 100%;
+    max-width: 100%;
   }
   .content__content7 .content7__left--desc {
     width: 90%;
     margin-left: 4%;
   }
 
-  .footer__container--content1 {
-    width: 100%;
+  .content7__slide {
+    width: 90%;
+    margin-top: -30rem;
+    margin-left: 5%;
+  }
+  .slide__icon--btn {
+    margin-top: -15rem;
+  }
+  .carousel-indicators {
+    bottom: -260px;
   }
   .footer__container--content {
-    display: grid;
-    gap: 2rem;
-  }
-  .footer__container--content1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  .footer__container--content2 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .footer__container--content3 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-  .footer__container--content4 {
-    grid-column: 1/4;
-    grid-row: 2/3;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+  }
+  .footer__container--content1 img {
+    width: 500%;
+    margin-left: -2rem;
+  }
+  .footer__container--content1 h6 {
+    /* white-space: nowrap; */
+    width: 200px;
   }
 
+  .footer__container--content1 #content1--phone {
+    white-space: nowrap;
+  }
+  .footer__container--content1 > div {
+    width: 200px;
+  }
+  .footer__container--content h5 {
+    white-space: nowrap;
+  }
+  .footer__container--content a,
+  .footer__container--content p {
+    width: 200px;
+  }
   .content4--ShareAndVisa {
     align-items: center;
+    width: 200px;
+    text-align: center;
   }
 
   /* ===================About Us========================= */
@@ -975,23 +1106,47 @@
     top: 0;
     background-color: white;
   }
+  .aboutUs__content1 {
+    padding: 6rem 1rem;
+  }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
   .content2__left--hover.img--2 figure img {
     width: 200%;
+    margin-left: -3rem !important;
   }
   .content2__left--desc {
     width: 70%;
     margin: -40rem 0 0 15%;
   }
+  .aboutUs__content2--left p {
+    font-size: 12px;
+  }
   .content2__right--desc {
     width: 70%;
     margin: -35rem 0 0 -35%;
   }
+  .aboutUs__content2--right p span {
+    font-size: 12px;
+  }
+  .aboutUs__content3 {
+    padding: 2rem 1rem;
+  }
+
   .aboutUs__content3--container1 {
     flex-direction: column;
   }
   .aboutUs__content3--container1 > div {
     width: 100%;
     text-align: justify;
+  }
+  .content3__container1--img div div {
+    margin-top: 3rem;
+  }
+  .content3__container1--img div h3,
+  .content3__container1--img div p {
+    display: none;
   }
   .aboutUs__content3--container1 .content3__container1--desc h1 {
     text-align: center;
@@ -1008,6 +1163,14 @@
   /* ===============Destinations/VietNam===================== */
   .listContent {
     width: 100%;
+  }
+  .content--vietnam {
+    margin: 3rem 1rem;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    flex-direction: column;
+    align-items: center;
   }
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
@@ -1038,6 +1201,9 @@
 
   .content--luxury .listContent .listContent__content {
     flex-direction: column;
+  }
+  .content--luxury {
+    padding: 0 1rem;
   }
   .list__content--right {
     width: 100%;
@@ -1075,7 +1241,928 @@
     margin: 0;
   }
   .content--luxury .listContent .listContent__list {
-    width: 148%;
-    margin-left: -6rem;
+    width: 100%;
+    /* margin-left: -1rem; */
+  }
+  .content--luxury .listContent .listContent__list .listContent__list--desc {
+    gap: 0.5rem;
+    width: 25%;
+    font-size: 8px;
+    /* white-space: nowrap; */
+    padding: 1rem 0.5rem;
+    /* letter-spacing: 0; */
+    line-height: 16px;
+  }
+  .content--luxury .listContent .listContent__content {
+    margin: 1rem 0;
+  }
+  .listContent__content .list__content--imgDesc .content__imgDesc--time {
+    gap: 0;
+  }
+  .content--luxury
+    .listContent
+    .listContent__list
+    .listContent__list--desc
+    svg {
+    display: none;
+  }
+
+  /* ===========Contact Us================== */
+  .map .menu {
+    top: 0;
+    background-color: white;
+  }
+  .map .menu .menu--content {
+    gap: 3rem;
+  }
+  .map .menu .menu__item {
+    display: none;
+  }
+  .content__contactUs {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .content__contactUs--left {
+    width: 100%;
+  }
+  .content__contactUs--left h3 {
+    text-align: center;
+  }
+  .content__contactUs--left form button {
+    margin-left: 20%;
+  }
+  .content__contactUs--right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  /* ===================ViewHaNoi===================================== */
+
+  .content--luxury {
+    padding: 3rem 1rem;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 100%;
+  }
+
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    div {
+    flex-direction: column;
+  }
+
+  .content__cruisingVnCam--included {
+    flex-direction: column;
+  }
+  .content__cruisingVnCam--included .include {
+    width: 100%;
+  }
+  .hanoiView__content {
+    padding: 3rem 1rem;
+  }
+  .hanoiView__content1 {
+    flex-direction: column;
+  }
+  .hanoiView__content1 div {
+    width: 100%;
+  }
+  /* =================Comment=================== */
+  .content__February2018 {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+  .content__February2018--nextPage h5 {
+    display: none;
+  }
+  .item-icon {
+    flex-direction: column;
+  }
+  .content__February2018--desc .desc--item {
+    gap: 1rem;
+  }
+  .content__February2018--content2 {
+    margin-left: 0;
+    padding-left: 2rem;
+  }
+  .content__February2018--content3 p {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  #navbar .menu__item {
+    display: none;
+  }
+  .nav__mobile {
+    display: block;
+  }
+
+  #navbar .nav__mobile .menu__item--mobile {
+    display: block;
+  }
+
+  .nav__bars-btn {
+    display: block;
+    z-index: 999;
+  }
+  .header .headerLeft__foolow--text {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .slide .menu {
+    top: 0;
+    background-color: white;
+  }
+  .slide .menu .menu--content {
+    gap: 4rem;
+  }
+  .slide .menu .menu__item {
+    gap: 1rem;
+    display: none;
+  }
+
+  .slide__title h1 {
+    font-size: 15px;
+    margin-top: -12rem;
+  }
+  .slide__title p {
+    font-size: 10px;
+    margin: 0;
+  }
+  .slide__form form {
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide__form form .slide__form--input {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .slide__form form button {
+    width: 100%;
+  }
+  .content__content1 {
+    display: flex;
+    flex-direction: column;
+    padding: 25rem 0 3rem 0;
+    gap: 1rem;
+  }
+  .content__content1 .content__content1--left {
+    max-width: 100%;
+  }
+  .content__content1--left .content1__left--desc {
+    margin: -10rem 0 0 2rem;
+  }
+  .content__content1--left .content1__left--desc h3 {
+    display: none;
+  }
+
+  .content__content1 .content__content1--right {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content__content1--right h3 {
+    letter-spacing: 0;
+  }
+  .content__content1 .content__content1--right p {
+    margin: 0;
+  }
+  .content__content2 {
+    padding: 0;
+  }
+  .content__content2 h2 {
+    font-size: 40px;
+  }
+  .content__content2 p {
+    padding: 1rem 4rem;
+  }
+  .content__content3 {
+    padding-bottom: 0rem;
+  }
+  .content__content3--desc {
+    padding: 0;
+  }
+  .content__content3 .content__content3--img .grid-container {
+    display: none;
+  }
+  .content__content3 .content__content3--img .gridMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .gridMobile .item--desc p {
+    display: none;
+  }
+  .content__content4--title {
+    padding: 0;
+  }
+
+  .content__content4 .content__content4--img {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .content__content5 .hover figure img {
+    margin: 0;
+  }
+  .content__content5 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+    margin-top: -40rem;
+  }
+  .content__content6--title {
+    padding: 2rem 0;
+  }
+  .content__content6 .content__content6--img {
+    flex-direction: column;
+  }
+  .content__content6 .content__content6--img img {
+    width: 70%;
+  }
+  .content__content6 .content__content6--img h5 {
+    font-size: 18px;
+  }
+  .content__content6 .content__content6--img h6 {
+    font-size: 13px;
+  }
+  .content__formEmail {
+    margin-left: 3%;
+    flex-direction: column;
+  }
+  .content__formEmail .content__formEmail--desc h3 {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  .content__formEmail .content__formEmail--desc h6 {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .content__formEmail--btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .content__formEmail--btn input {
+    height: 3rem;
+  }
+  .content__formEmail--btn button {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+  }
+  .content__content7 {
+    flex-direction: column;
+    height: 55rem;
+  }
+  .content__content7 figure {
+    height: 65rem !important;
+    /* padding: 0 0 3rem 0; */
+  }
+
+  .content__content7--left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .content__content7 .content7__left--desc {
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  .content7__slide {
+    width: 90%;
+    margin-top: -25rem;
+    margin-left: 5%;
+  }
+  .slide__icon--btn {
+    margin-top: -20rem;
+  }
+  .carousel-indicators {
+    display: none !important;
+  }
+  .footer__container {
+    padding: 2rem 1rem;
+  }
+  .footer__container--content {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__container--content1 img {
+    width: 400%;
+    margin-left: -2rem;
+  }
+  .footer__container--content1 h6 {
+    /* white-space: nowrap; */
+    width: 200px;
+  }
+
+  .footer__container--content1 #content1--phone {
+    white-space: nowrap;
+  }
+  .footer__container--content1 > div {
+    width: 200px;
+  }
+  .footer__container--content h5 {
+    white-space: nowrap;
+  }
+  .footer__container--content a,
+  .footer__container--content p {
+    width: 200px;
+  }
+  .content4--ShareAndVisa {
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    /* margin-left: 05rem; */
+  }
+  .content4--btnShare {
+    margin: 0;
+  }
+
+  /* ===================About Us========================= */
+
+  .banner--aboutUs .menu .menu__item {
+    display: none;
+  }
+  .banner--aboutUs .menu {
+    top: 0;
+    background-color: white;
+  }
+  .aboutUs__content1 {
+    padding: 2rem 1rem;
+  }
+  .aboutUs__content1 h4 {
+    white-space: nowrap;
+  }
+  .aboutUs__content2--left p {
+    font-size: 10px;
+  }
+  .content2__left--hover.img--2 figure img {
+    width: 200%;
+    margin-left: -5rem !important;
+  }
+  .content2__left--desc {
+    width: 70%;
+    margin: -40rem 0 0 15%;
+  }
+  .content2__right--desc p span {
+    font-size: 10px;
+  }
+  .content2__right--desc {
+    width: 70%;
+    margin: -35rem 0 0 -35%;
+  }
+  .content3__container1--img div > div {
+    margin-top: 3rem;
+  }
+  .content3__container1--img div .container1--icon {
+    margin-top: 0rem;
+  }
+  .content3__container1--img div h3,
+  .content3__container1--img div p {
+    display: none;
+  }
+
+  .aboutUs__content3 {
+    padding: 2rem 1rem;
+  }
+  .aboutUs__content3--container1 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container1 > div {
+    width: 100%;
+    text-align: justify;
+  }
+  .aboutUs__content3--container1 .content3__container1--desc h1 {
+    text-align: center;
+  }
+  .aboutUs__content3--container2 {
+    flex-direction: column;
+  }
+  .aboutUs__content3--container2 > .content3__container2--desc {
+    width: 100%;
+  }
+  .aboutUs__content3--container2 > .content3__container2--img {
+    width: 100%;
+  }
+  /* ===============Destinations/VietNam===================== */
+  .listContent {
+    width: 100%;
+  }
+  .content--vietnam {
+    margin: 3rem 1rem;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* ===============Destination/ThaiLand================ */
+  .content__vietnam1 {
+    flex-direction: column;
+  }
+  .content__vietnam1--left {
+    width: 100%;
+    text-align: justify;
+  }
+  .content__vietnam1--left h1 {
+    text-align: center;
+  }
+  .content__vietnam1--right {
+    width: 100%;
+  }
+  .imgThailand {
+    display: none;
+  }
+  .content__vietnam3 > h1 {
+    font-size: 50px;
+  }
+  /* ===============Destinations/Cambodia======================== */
+  .imgCambodia {
+    display: none;
+  }
+  /* ==================Destinations/Laos=============== */
+  .imgLaos {
+    display: none;
+  }
+  /* =============Luxury===================== */
+
+  .content--luxury .listContent .listContent__content {
+    flex-direction: column;
+  }
+  .content--luxury {
+    padding: 0 1rem;
+  }
+  .list__content--right {
+    width: 100%;
+  }
+  .list__content--right form button {
+    width: 40%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    width: 100%;
+  }
+
+  .listContent__content .list__content {
+    margin-top: 2rem;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    height: 300px;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .listContent__content .list__content--imgDesc {
+    margin: 0;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 100%;
+    /* margin-left: -1rem; */
+  }
+  .content--luxury .listContent .listContent__list .listContent__list--desc {
+    gap: 0.5rem;
+    width: 25%;
+    font-size: 8px;
+    /* white-space: nowrap; */
+    padding: 1rem 0.5rem;
+    /* letter-spacing: 0; */
+    line-height: 16px;
+  }
+  .content--luxury .listContent .listContent__content {
+    margin: 1rem 0;
+  }
+  .listContent__content .list__content--imgDesc .content__imgDesc--time {
+    gap: 0;
+  }
+  .content--luxury
+    .listContent
+    .listContent__list
+    .listContent__list--desc
+    svg {
+    display: none;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    width: 270px;
+  }
+
+  /* ===========Contact Us================== */
+  .map .menu {
+    top: 0;
+    background-color: white;
+  }
+  .map .menu .menu--content {
+    gap: 3rem;
+  }
+  .map .menu .menu__item {
+    display: none;
+  }
+  .content__contactUs {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .content__contactUs--left {
+    width: 100%;
+  }
+  .content__contactUs--left h3 {
+    text-align: center;
+  }
+  .content__contactUs--left form button {
+    margin-left: 10%;
+  }
+  .content__contactUs--right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  /* ===================ViewHaNoi===================================== */
+
+  .content--luxury {
+    padding: 3rem 1rem;
+  }
+  .content--luxury .listContent .listContent__list {
+    width: 100%;
+  }
+
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    div {
+    flex-direction: column;
+  }
+
+  .content__cruisingVnCam--included {
+    flex-direction: column;
+  }
+  .content__cruisingVnCam--included .include {
+    width: 100%;
+  }
+  .hanoiView__content {
+    padding: 3rem 1rem;
+  }
+  .hanoiView__content1 {
+    flex-direction: column;
+  }
+  .hanoiView__content1 div {
+    width: 100%;
+  }
+  /* =================Comment=================== */
+  .content__February2018 {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+  .content__February2018--nextPage h5 {
+    display: none;
+  }
+  .desc--item {
+    flex-direction: column;
+  }
+  .item-icon {
+    flex-direction: column;
+  }
+  .content__February2018--desc .desc--icon {
+    justify-content: center;
+  }
+  .content__February2018--content2 {
+    margin-left: 0;
+    padding-left: 2rem;
+  }
+  .content__February2018--content3 p {
+    display: none;
+  }
+  .content__February2018--content2 .content2--item {
+    gap: 1rem;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1400px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 280px;
+    height: 280px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 280px;
+    height: 280px;
+    margin-top: -280px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1350px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 260px;
+    height: 260px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 260px;
+    height: 260px;
+    margin-top: -260px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 240px;
+    height: 240px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 240px;
+    height: 240px;
+    margin-top: -240px;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1200px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 220px;
+    height: 220px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 220px;
+    height: 220px;
+    margin-top: -220px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1150px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 200px;
+    height: 200px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 200px;
+    height: 200px;
+    margin-top: -200px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1024px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 400px;
+    height: 400px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+  }
+
+  .item__hover--1 {
+    flex-direction: column;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 300px;
+    height: 300px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+  }
+
+  .item__hover--1 {
+    flex-direction: column;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    justify-content: center;
+  }
+  .view--btnMobile {
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    margin: -7rem 0 0 7rem;
+    display: block;
+  }
+  .vietnam2__item--hover:hover .item2,
+  .vietnam2__item--hover:hover .item3,
+  .vietnam2__item--hover:hover .item4,
+  .vietnam2__item--hover:hover .item5,
+  .vietnam2__item--hover:hover .item6,
+  .vietnam2__item--hover:hover .item7,
+  .vietnam2__item--hover:hover .item8,
+  .vietnam2__item--hover:hover .item9 {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    display: none;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 400px;
+    height: 400px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+  }
+
+  .item__hover--1 {
+    flex-direction: column;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    justify-content: center;
+  }
+  .view--btnMobile {
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    margin: -7rem 0 0 10rem;
+    display: block;
+  }
+  .vietnam2__item--hover:hover .item2,
+  .vietnam2__item--hover:hover .item3,
+  .vietnam2__item--hover:hover .item4,
+  .vietnam2__item--hover:hover .item5,
+  .vietnam2__item--hover:hover .item6,
+  .vietnam2__item--hover:hover .item7,
+  .vietnam2__item--hover:hover .item8,
+  .vietnam2__item--hover:hover .item9 {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    display: none;
+  }
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 300px;
+    height: 300px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+  }
+
+  .item__hover--1 {
+    flex-direction: column;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    justify-content: center;
+  }
+
+  .view--btnMobile {
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    margin: -7rem 0 0 7rem;
+    display: block;
+  }
+  .vietnam2__item--hover:hover .item2,
+  .vietnam2__item--hover:hover .item3,
+  .vietnam2__item--hover:hover .item4,
+  .vietnam2__item--hover:hover .item5,
+  .vietnam2__item--hover:hover .item6,
+  .vietnam2__item--hover:hover .item7,
+  .vietnam2__item--hover:hover .item8,
+  .vietnam2__item--hover:hover .item9 {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .content__vietnam2 .content__vietnam2--container .item2,
+  .content__vietnam2 .content__vietnam2--container .item3,
+  .content__vietnam2 .content__vietnam2--container .item4,
+  .content__vietnam2 .content__vietnam2--container .item5,
+  .content__vietnam2 .content__vietnam2--container .item6,
+  .content__vietnam2 .content__vietnam2--container .item7,
+  .content__vietnam2 .content__vietnam2--container .item8,
+  .content__vietnam2 .content__vietnam2--container .item9 {
+    width: 300px;
+    height: 300px;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+  }
+
+  .item__hover--1 {
+    flex-direction: column;
+  }
+  .vietnam2__container--1,
+  .vietnam2__container--2 {
+    justify-content: center;
+  }
+  .view--btnMobile {
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    margin: -7rem 0 0 7rem;
+    display: block;
+  }
+  .vietnam2__item--hover:hover .item2,
+  .vietnam2__item--hover:hover .item3,
+  .vietnam2__item--hover:hover .item4,
+  .vietnam2__item--hover:hover .item5,
+  .vietnam2__item--hover:hover .item6,
+  .vietnam2__item--hover:hover .item7,
+  .vietnam2__item--hover:hover .item8,
+  .vietnam2__item--hover:hover .item9 {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+  }
+  .content__vietnam2 .content__vietnam2--container .vietnam2__item--desc {
+    display: none;
   }
 }
