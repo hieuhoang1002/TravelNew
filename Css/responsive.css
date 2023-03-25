@@ -260,9 +260,7 @@
   .nav__mobile {
     display: block;
   }
-  .nav__overlay {
-    /* display: block; */
-  }
+
   .header .headerLeft__foolow--text {
     display: none;
   }
@@ -986,9 +984,6 @@
     display: flex;
     flex-direction: column;
     padding: 0 10px;
-  }
-  .gridMobile .item--desc p {
-    /* display: none; */
   }
 
   .content__content4 .content__content4--img {
