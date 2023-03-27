@@ -66,6 +66,7 @@
 }
 .nav__mobile {
   display: none;
+  overflow: scroll;
 }
 .nav__overlay {
   position: fixed;
@@ -137,20 +138,24 @@
 }
 
 .nav__mobile .menu__item--mobile ul li a {
-  /* position: relative; */
   text-align: start;
-  margin-left: 1rem;
+  margin-left: 0rem;
   color: black !important;
+  font-size: 17px;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
 }
 .nav__mobile .menu__item--mobile > div {
-  margin-top: 2rem;
+  margin-top: 0.7rem;
 }
 .dropdown-menu.show {
   position: relative !important;
   text-align: start;
   transform: none !important;
   width: 62%;
+  border: none;
 }
+
 .menu__item--mobile img {
   width: 80%;
   margin-left: 10%;
@@ -958,7 +963,7 @@ input::placeholder {
 }
 .slide__icon--btn button {
   border: none;
-  z-index: 999;
+  z-index: 10;
 }
 .content7__slide--prev,
 .content7__slide--next {
@@ -2887,4 +2892,11 @@ input::placeholder {
 .form--rating button:hover {
   transition: all 0.3s;
   background-color: #383838;
+}
+/* ------------------- */
+.owl-nav {
+  display: none;
+}
+.owl-dots {
+  display: none;
 }

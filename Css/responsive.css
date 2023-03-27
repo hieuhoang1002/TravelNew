@@ -142,6 +142,13 @@
   }
 }
 
+@media (min-width: 991px) {
+  .nav__overlay {
+    opacity: 0;
+    transition: all 0.3s;
+  }
+}
+
 @media (min-width: 991px) and (max-width: 1024px) {
   #navbar .item {
     font-size: 12px;
@@ -270,11 +277,14 @@
   }
   /* ------------------------------------------- */
   .ourTeam--column {
-    width: 50% !important;
+    width: 33% !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .banner__aboutUs--desc h6 {
+    padding: 0 1rem;
+  }
   #navbar .menu__item {
     display: none;
   }
@@ -411,6 +421,9 @@
   .carousel-indicators.content7__slide--btn2 {
     bottom: -200px !important;
   }
+  .content7__left--desc {
+    margin-top: -53rem;
+  }
   /* ===================About Us========================= */
 
   .banner--aboutUs .menu .menu__item {
@@ -466,6 +479,12 @@
   /* ===============Destinations/VietNam===================== */
   .listContent {
     width: 100%;
+  }
+  .col--3 {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    margin-top: 2rem !important;
   }
 
   /* ===============Destination/ThaiLand================ */
@@ -543,14 +562,7 @@
   .listContent__content .list__content {
     margin-top: 2rem;
   }
-  .content--luxury
-    .listContent
-    .listContent__content
-    .listContent__list--content
-    .list__content--img
-    img {
-    height: 300px;
-  }
+
   .content--luxury
     .listContent
     .listContent__content
@@ -572,7 +584,7 @@
     width: 100%;
   }
   .listContent__list .listContent__list--desc {
-    margin-left: 0;
+    margin-left: 1rem;
   }
 
   .content__imgDesc--time a {
@@ -586,6 +598,22 @@
     white-space: nowrap;
   }
 
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img {
+    width: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    width: 100%;
+    height: 100%;
+  }
   /* =================Comment=================== */
   .content__February2018 {
     padding: 3rem 1rem;
@@ -843,6 +871,11 @@
     margin-left: 11%;
   }
 
+  .content__AboutUs4 {
+    padding: 0;
+    margin: 2rem 1rem;
+  }
+
   /* ---------------------- */
   .content--ourTeam .container {
     max-width: 100%;
@@ -861,6 +894,11 @@
   .vietnam2__container--2 {
     flex-direction: column;
     align-items: center;
+  }
+  .content__vietnam3.content--blogs .container .row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
@@ -939,10 +977,10 @@
     flex-direction: column;
   }
   .content--luxury .listContent .listContent__list .listContent__list--desc {
-    width: 100%;
+    width: 97.5%;
   }
   .listContent__list .listContent__list--desc {
-    margin-left: 0;
+    margin-left: 1rem;
   }
   .listContent__content .list__content--imgDesc .content__imgDesc--time {
     gap: 1rem;
@@ -952,6 +990,28 @@
   }
   .listContent__content .list__content--imgDesc .content__imgDesc--time a {
     white-space: nowrap;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img {
+    width: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img
+    img {
+    width: 100%;
+    height: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    padding-right: 16px;
   }
 
   /* ===========Contact Us================== */
@@ -1351,6 +1411,10 @@
   .aboutUs__content3--container2 > .content3__container2--img {
     width: 100%;
   }
+  .content__AboutUs4 {
+    padding: 0;
+    margin: 2rem 1rem;
+  }
 
   /* ---------------------- */
   .content--ourTeam .container {
@@ -1370,6 +1434,11 @@
   .vietnam2__container--2 {
     flex-direction: column;
     align-items: center;
+  }
+  .content__vietnam3.content--blogs .container .row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
@@ -1444,7 +1513,7 @@
   }
   .content--luxury .listContent .listContent__list .listContent__list--desc {
     gap: 0.5rem;
-    width: 25%;
+    width: 96% !important;
     font-size: 8px;
     padding: 1rem 0.5rem;
     line-height: 16px;
@@ -1485,7 +1554,7 @@
     width: 100%;
   }
   .listContent__list .listContent__list--desc {
-    margin-left: 0;
+    margin-left: 1rem;
   }
 
   .list__content--imgDesc div div {
@@ -1493,7 +1562,15 @@
     flex-direction: row !important;
   }
   .listContent__list--content {
-    margin-left: 0;
+    margin-left: 1rem;
+  }
+
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
+    .list__content--img {
+    width: 100%;
   }
   .content--luxury
     .listContent
@@ -1501,8 +1578,17 @@
     .listContent__list--content
     .list__content--img
     img {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    padding-right: 16px;
+  }
+  .list__content--imgDesc a {
+    width: 100% !important;
   }
 
   /* ===========Contact Us================== */
@@ -1977,6 +2063,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .content__vietnam3.content--blogs .container .row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
   /* ===============Destination/ThaiLand================ */
   .content__vietnam1 {
     flex-direction: column;
@@ -2093,9 +2184,26 @@
     .listContent
     .listContent__content
     .listContent__list--content
+    .list__content--img {
+    width: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content
     .list__content--img
     img {
-    width: 270px;
+    width: 100%;
+    height: 100%;
+  }
+  .content--luxury
+    .listContent
+    .listContent__content
+    .listContent__list--content {
+    padding-right: 16px;
+  }
+  .list__content--imgDesc a {
+    width: 100% !important;
   }
 
   .content--luxury .listContent .listContent__list {
@@ -2105,10 +2213,13 @@
     flex-direction: column;
   }
   .content--luxury .listContent .listContent__list .listContent__list--desc {
-    width: 100%;
+    width: 95% !important;
   }
   .listContent__list .listContent__list--desc {
-    margin-left: 0;
+    margin-left: 1rem;
+  }
+  .listContent__content .list__content--imgDesc a {
+    width: 100% !important;
   }
 
   /* ===========Contact Us================== */
@@ -2232,6 +2343,10 @@
   }
   .content4--ShareAndVisa {
     margin-bottom: 2rem;
+  }
+  .content__AboutUs4 {
+    padding: 0;
+    margin: 2rem 1rem;
   }
 }
 
