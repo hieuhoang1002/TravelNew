@@ -1191,6 +1191,7 @@ input::placeholder {
   width: 100%;
   font-size: 100%;
   margin: 0;
+  white-space: nowrap;
 }
 .aboutUs__content1 h4::after {
   border-top: 1px solid rgba(174, 174, 174, 0.653);
@@ -1342,6 +1343,7 @@ input::placeholder {
 .aboutUs__content2--right p {
   font-family: Cabin, sans-serif;
 }
+
 /* ====content3=== */
 .aboutUs__content3 {
   padding: 5rem 88px 3rem 88px;
