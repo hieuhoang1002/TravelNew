@@ -156,6 +156,14 @@
   border: none;
 }
 
+.item__navMobile--1 {
+  display: flex !important;
+  justify-content: space-between;
+}
+.item__navMobile--1 svg {
+  margin-right: 1rem;
+}
+
 .menu__item--mobile img {
   width: 80%;
   margin-left: 10%;
